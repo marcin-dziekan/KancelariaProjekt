@@ -1,0 +1,21 @@
+﻿@model Darek_kancelaria.Models.PageContent
+@{
+    ViewBag.Title = "AboutMe";
+}
+<script>
+    $(function () {
+        $(".menu").each(function () {
+            this.classList.remove("selectedItem");
+        });
+        $("#about.menu").addClass("selectedItem")
+    })
+</script>
+<div class="row ContentPadTop">
+    <div class="col-md-12">
+           <div style="float:left; padding-right:30px; padding-bottom:0px;"> <img style="width:27vh" src="~/Images/2fd0894a0389ffbe317dd67ab136ee16.jpg" /></div>
+        <div>
+            <h4 style="text-align:justify; line-height:40px;"><span class="bigLetter">@if (Model.Content != null) {@Model.Content.First().ToString().ToUpper()}</span><span style="color:#e2e2e2; font-family:'caviar'">@if (Model.Content != null) {@Model.Content.Substring(1)}</span> </h4> 
+        </div>
+    </div>
+</div>
+

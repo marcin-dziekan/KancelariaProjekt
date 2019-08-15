@@ -1,0 +1,1201 @@
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\ApplicationInsights.config
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll.config
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.pdb
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.exe
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.exe.config
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.rsp
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.exe
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.exe.config
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.rsp
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.AppContext.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Console.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Compression.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Claims.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.ValueTuple.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.exe
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.exe.config
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.rsp
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Antlr3.Runtime.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Newtonsoft.Json.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Owin.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Helpers.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Mvc.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Optimization.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Razor.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\WebGrease.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Helpers.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Mvc.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Optimization.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Razor.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Newtonsoft.Json.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Antlr3.Runtime.pdb
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Razor.resources.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CoreCompileInputs.cache
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CopyComplete
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.dll
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.pdb
+C:\Users\marci\source\repos\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csprojAssemblyReference.cache
+D:\Darek_kancelaria\Darek_kancelaria\bin\ApplicationInsights.config
+D:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll.config
+D:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.pdb
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.exe
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.exe.config
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.rsp
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.exe
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.exe.config
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.rsp
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.AppContext.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Collections.Immutable.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Console.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Compression.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Reflection.Metadata.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.AccessControl.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Claims.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.ValueTuple.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.exe
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.exe.config
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.rsp
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe
+D:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe.config
+D:\Darek_kancelaria\Darek_kancelaria\bin\Antlr3.Runtime.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Web.Infrastructure.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Newtonsoft.Json.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\Owin.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Helpers.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Mvc.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Optimization.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Razor.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\WebGrease.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Helpers.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Mvc.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Optimization.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Razor.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Newtonsoft.Json.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Antlr3.Runtime.pdb
+D:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Helpers.resources.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Mvc.resources.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Optimization.resources.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Razor.resources.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.resources.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Deployment.resources.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Razor.resources.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csprojAssemblyReference.cache
+D:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CoreCompileInputs.cache
+D:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CopyComplete
+D:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.dll
+D:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.pdb
+E:\Darek_kancelaria\Darek_kancelaria\bin\ApplicationInsights.config
+E:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll.config
+E:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.pdb
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.exe
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.exe.config
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.rsp
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.exe
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.exe.config
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.rsp
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.AppContext.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Collections.Immutable.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Console.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Compression.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Reflection.Metadata.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.AccessControl.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Claims.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.ValueTuple.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.exe
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.exe.config
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.rsp
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe
+E:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe.config
+E:\Darek_kancelaria\Darek_kancelaria\bin\Antlr3.Runtime.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Web.Infrastructure.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Newtonsoft.Json.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\Owin.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Helpers.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Mvc.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Optimization.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Razor.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\WebGrease.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Helpers.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Mvc.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Optimization.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Razor.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Newtonsoft.Json.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Antlr3.Runtime.pdb
+E:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Helpers.resources.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Mvc.resources.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Optimization.resources.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Razor.resources.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.resources.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Deployment.resources.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Razor.resources.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csprojAssemblyReference.cache
+E:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CoreCompileInputs.cache
+E:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CopyComplete
+E:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.dll
+E:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.pdb
+Y:\Darek_kancelaria\Darek_kancelaria\bin\ApplicationInsights.config
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll.config
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.pdb
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.exe
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.exe.config
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.rsp
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.exe
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.exe.config
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.rsp
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CSharp.Core.targets
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Managed.Core.targets
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.AppContext.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Collections.Immutable.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Console.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.StackTrace.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Compression.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.AccessControl.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Reflection.Metadata.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.AccessControl.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Claims.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Principal.Windows.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Text.Encoding.CodePages.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.ValueTuple.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.ReaderWriter.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XmlDocument.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.XDocument.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.exe
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.exe.config
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.rsp
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe
+Y:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe.config
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Antlr3.Runtime.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Agent.Intercept.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Web.Infrastructure.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Newtonsoft.Json.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Owin.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Helpers.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Mvc.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Optimization.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Razor.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\WebGrease.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Helpers.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Mvc.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Optimization.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Razor.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Newtonsoft.Json.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Antlr3.Runtime.pdb
+Y:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Helpers.resources.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Mvc.resources.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Optimization.resources.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Razor.resources.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.resources.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Deployment.resources.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Razor.resources.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+Y:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+Y:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csprojAssemblyReference.cache
+Y:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CoreCompileInputs.cache
+Y:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CopyComplete
+Y:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.dll
+Y:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.pdb
+F:\Darek_kancelaria\Darek_kancelaria\bin\ApplicationInsights.config
+F:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll.config
+F:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Darek_kancelaria.pdb
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.exe
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.exe.config
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csc.rsp
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.exe
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.exe.config
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\csi.rsp
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.AppContext.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Collections.Immutable.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Console.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Compression.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Reflection.Metadata.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.AccessControl.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Claims.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.ValueTuple.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.exe
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.exe.config
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\vbc.rsp
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe
+F:\Darek_kancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe.config
+F:\Darek_kancelaria\Darek_kancelaria\bin\Antlr3.Runtime.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Web.Infrastructure.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Newtonsoft.Json.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\Owin.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Helpers.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Mvc.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Optimization.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Razor.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\WebGrease.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Helpers.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Mvc.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Optimization.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.Razor.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Newtonsoft.Json.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Antlr3.Runtime.pdb
+F:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Helpers.resources.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Mvc.resources.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Optimization.resources.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.Razor.resources.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.resources.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Deployment.resources.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Razor.resources.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+F:\Darek_kancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+F:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csprojAssemblyReference.cache
+F:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CoreCompileInputs.cache
+F:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CopyComplete
+F:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.dll
+F:\Darek_kancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.pdb
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\ApplicationInsights.config
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll.config
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.pdb
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.exe
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.exe.config
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.rsp
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.exe
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.exe.config
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.rsp
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.AppContext.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Console.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Compression.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Claims.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.ValueTuple.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.exe
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.exe.config
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.rsp
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Antlr3.Runtime.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Newtonsoft.Json.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Owin.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Helpers.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Mvc.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Optimization.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Razor.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\WebGrease.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Helpers.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Mvc.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Optimization.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Razor.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Newtonsoft.Json.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Antlr3.Runtime.pdb
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Razor.resources.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CoreCompileInputs.cache
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CopyComplete
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.pdb
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\PagedList.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\PagedList.Mvc.dll
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\PagedList.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\PagedList.Mvc.xml
+C:\Users\marci\Source\Repos\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csprojAssemblyReference.cache
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\ApplicationInsights.config
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll.config
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.pdb
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.exe
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.exe.config
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.rsp
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.exe
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.exe.config
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.rsp
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.AppContext.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Console.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Compression.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Claims.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.ValueTuple.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.exe
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.exe.config
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.rsp
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Antlr3.Runtime.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.TraceListener.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Newtonsoft.Json.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Owin.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\PagedList.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\PagedList.Mvc.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Helpers.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Mvc.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Optimization.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Razor.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\WebGrease.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Antlr3.Runtime.pdb
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.TraceListener.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\Newtonsoft.Json.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\PagedList.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\PagedList.Mvc.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Helpers.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Mvc.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Optimization.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Razor.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.xml
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csprojAssemblyReference.cache
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CoreCompileInputs.cache
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CopyComplete
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.dll
+C:\Users\Marcin Dziekan\Source\Repos\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.pdb
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\ApplicationInsights.config
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll.config
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.pdb
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.exe
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.exe.config
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.rsp
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.exe
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.exe.config
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.rsp
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.AppContext.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Console.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Compression.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Claims.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.ValueTuple.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.exe
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.exe.config
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.rsp
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Antlr3.Runtime.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.TraceListener.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Newtonsoft.Json.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Owin.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\PagedList.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\PagedList.Mvc.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Helpers.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Mvc.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Optimization.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Razor.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\WebGrease.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Antlr3.Runtime.pdb
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.TraceListener.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\Newtonsoft.Json.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\PagedList.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\PagedList.Mvc.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Helpers.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Mvc.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Optimization.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Razor.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.xml
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Razor.resources.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csprojAssemblyReference.cache
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CoreCompileInputs.cache
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CopyComplete
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.dll
+C:\Users\marci\Desktop\Projekty\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.pdb
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csprojAssemblyReference.cache
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CoreCompileInputs.cache
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.pdb
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\ApplicationInsights.config
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll.config
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Darek_kancelaria.pdb
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.exe
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.exe.config
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csc.rsp
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.exe
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.exe.config
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\csi.rsp
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.Managed.Core.targets
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.AppContext.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Collections.Immutable.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Console.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Compression.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.IO.Pipes.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Reflection.Metadata.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.AccessControl.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Claims.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Security.Principal.Windows.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.ValueTuple.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XmlDocument.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.exe
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.exe.config
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\vbc.rsp
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\roslyn\VBCSCompiler.exe.config
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Antlr3.Runtime.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Agent.Intercept.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.TraceListener.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Web.Infrastructure.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Newtonsoft.Json.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Owin.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\PagedList.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\PagedList.Mvc.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Helpers.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Mvc.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Optimization.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Razor.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\WebGrease.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Antlr3.Runtime.pdb
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\EntityFramework.SqlServer.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.DependencyCollector.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.PerfCounterCollector.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.Web.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AI.WindowsServer.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.ApplicationInsights.TraceListener.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Core.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Cookies.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Facebook.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Google.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.OAuth.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Microsoft.Owin.Security.Twitter.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\Newtonsoft.Json.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\PagedList.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\PagedList.Mvc.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Diagnostics.DiagnosticSource.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Helpers.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Mvc.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Optimization.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.Razor.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Deployment.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\System.Web.WebPages.Razor.xml
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Helpers.resources.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Mvc.resources.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Optimization.resources.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.Razor.resources.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.resources.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Deployment.resources.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\bin\pl\System.Web.WebPages.Razor.resources.dll
+G:\POPRAWIONE\DariuszKancelaria\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CopyComplete

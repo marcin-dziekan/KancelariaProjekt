@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ContentDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DeviceSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CText" Type="String" Nullable="false" />
+    <NavigationProperty Name="Zakladka" Relationship="ContentDBModel.ZakladkaDeviceSet" FromRole="DeviceSet" ToRole="Zakladka" />
+    <Property Name="ZakladkaId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ContentDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DeviceSet" EntityType="Self.DeviceSet" />
+    <EntitySet Name="ZakladkaSet" EntityType="ContentDBModel.Zakladka" />
+    <AssociationSet Name="ZakladkaDeviceSet" Association="ContentDBModel.ZakladkaDeviceSet">
+      <End Role="Zakladka" EntitySet="ZakladkaSet" />
+      <End Role="DeviceSet" EntitySet="DeviceSet" />
+    </AssociationSet>
+    <EntitySet Name="KeyWordsSet" EntityType="ContentDBModel.KeyWords" />
+  </EntityContainer>
+  <EntityType Name="Zakladka">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <NavigationProperty Name="DeviceSet" Relationship="ContentDBModel.ZakladkaDeviceSet" FromRole="Zakladka" ToRole="DeviceSet" />
+  </EntityType>
+  <Association Name="ZakladkaDeviceSet">
+    <End Type="ContentDBModel.Zakladka" Role="Zakladka" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ContentDBModel.DeviceSet" Role="DeviceSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zakladka">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DeviceSet">
+        <PropertyRef Name="ZakladkaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="KeyWords">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Words" Type="String" Nullable="false" />
+  </EntityType>
+</Schema>

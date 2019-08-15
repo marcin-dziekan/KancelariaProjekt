@@ -1,0 +1,70 @@
+﻿
+<div class="row">
+    <div>
+        <h4>Dane widoków </h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>Strona główna:</dt>
+            <dd>
+                [
+                @Html.ActionLink("Edytuj dane", "AddMainPage", "Home")
+                ]
+            </dd>
+            <br />
+            <dt>O Mnie:</dt>
+            <dd>
+                [
+                @Html.ActionLink("Edytuj dane", "AddAboutMe", "Home")
+                ]
+            </dd>
+            <br />
+            <dt>Oferta:</dt>
+            <dd>
+                [
+                @Html.ActionLink("Edytuj dane", "AddOffer", "Home")
+                ]
+            </dd>
+            <br />
+            <dt>Blog:</dt>
+            <dd>
+                [
+                @Html.ActionLink("Dodaj wpis", "AddBlog", "Home")
+                ]
+                [
+                @Html.ActionLink("Lista wpisów", "BlogList", "Home")
+                ]
+                [
+                <span style="color:#923233">@Html.ActionLink("Usuń wszytkie wpisy", "BlogRemoveAll", "Home")</span>
+                ]
+            </dd>
+            <br />
+            <dt>Kontakt:</dt>
+            <dd>
+                [
+                @Html.ActionLink("Edytuj dane", "AddContact", "Home")
+                ]
+            </dd>
+        </dl>
+        <br />
+            <h4>Statystyki (skrócone)</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>Dane osób (maile)</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Pokaż", "GetMailedIp", "Home")
+                    ]
+                </dd>
+                <br />
+                <dt>Dane odwiedzających</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Pokaż", "WhoViewed", "Home")
+                    ]
+                </dd>
+                <br />
+            </dl>
+
+    </div>
+</div>
+

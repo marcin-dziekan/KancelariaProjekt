@@ -1,0 +1,55 @@
+﻿@model PagedList.IPagedList<Darek_kancelaria.Models.Log>
+@using PagedList.Mvc;
+
+
+
+
+<div class="col-md-12 ContentPadTop">
+    <div class="row">
+        <div class="col-md-4 hidden-sm hidden-xs">
+            @Html.Partial("FullSiteManagerMenu")
+        </div>
+        <div class="col-md-8 col-sm-12 col-xs-12">
+            <h4>Lista osób które wysłały email</h4>
+            <hr />
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayName("IP")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Adres email")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Wysłano")
+                    </th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr class="element" id="@item.Id">
+                        <td>
+                            <h5>@Html.DisplayFor(modelItem => item.IpAddress)</h5>
+                        </td>
+                        <td>
+                            <h5>@item.EmailAddress</h5>
+                        </td>
+                        <td>
+                            <h5>@item.DateTime</h5>
+                        </td>
+                    </tr>
+                }
+
+            </table>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h4>Strona @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) z @Model.PageCount</h4>
+                </div>
+                <div class="col-md-9 col-md-offset-3 text-center">
+                    @Html.PagedListPager(Model, page => Url.Action("GetMailedIp", new { page }))
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

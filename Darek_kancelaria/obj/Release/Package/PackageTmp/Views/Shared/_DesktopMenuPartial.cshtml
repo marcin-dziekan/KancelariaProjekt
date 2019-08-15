@@ -1,0 +1,33 @@
+﻿@using Microsoft.AspNet.Identity
+
+@if (!User.Identity.IsAuthenticated)
+{
+    @Html.ActionLink("DZIEKAN", "Index", "Home", new { area = "" }, new { @class = "navbar-brand sherifTxt padFromTop hidden-sm hidden-xs", @style = "font-size:4.5em; padding-left: 50px; font-family: luxia" })
+    @Html.ActionLink("LAWYER", "Index", "Home", new { area = "" }, new { @class = "navbar-brand sherifTxt padFromTop hidden-sm hidden-xs", @style = "font-size:1.3em; padding-left: 10px; padding-top:95px; color:#414141" })
+}
+
+
+<ul class="nav navbar-nav hidden-sm hidden-xs navbar-right" style="color:#cabeb3">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <li class="menu padFromTop">@Html.ActionLink("Strona główna", "Index", "Home")</li>
+        <li id="about" class="menu padFromTop">@Html.ActionLink("O mnie", "AboutMe", "Home")</li>
+        <li id="offer" class="menu padFromTop">@Html.ActionLink("Oferta", "Offer", "Home")</li>
+        <li id="blog" class="menu padFromTop">@Html.ActionLink("Blog", "Blog", "Home")</li>
+        <li id="contact" class="menu padFromTop">@Html.ActionLink("Kontakt", "Contact", "Home")</li>
+        <li id="manage" class="menu padFromTop">@Html.ActionLink("Zarządzaj", "Index", "Manage")</li>
+        <li class="menu padFromTop activeMenu"><a href="javascript:document.getElementById('logoutForm').submit()">Wyloguj</a></li>
+        using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+        {
+            @Html.AntiForgeryToken()
+        }
+    }
+    else
+    {
+        <li id="about" class="menu padFromTop">@Html.ActionLink("O Mnie", "AboutMe", "Home")</li>
+        <li id="offer" class="menu padFromTop">@Html.ActionLink("Oferta", "Offer", "Home")</li>
+        <li id="blog" class="menu padFromTop">@Html.ActionLink("Blog", "Blog", "Home")</li>
+        <li id="contact" class="menu padFromTop">@Html.ActionLink("Kontakt", "Contact", "Home")</li>
+        <li class="menu padFromTop activeMenu">@Html.ActionLink("Zaloguj", "Login", "Account")</li>
+    }
+</ul>

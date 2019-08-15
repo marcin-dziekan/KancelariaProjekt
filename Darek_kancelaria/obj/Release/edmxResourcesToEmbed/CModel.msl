@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ContentDBModelStoreContainer" CdmEntityContainer="ContentDBEntities">
+    <EntitySetMapping Name="DeviceSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ContentDBModel.DeviceSet)">
+        <MappingFragment StoreEntitySet="DeviceSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CText" ColumnName="CText" />
+          <ScalarProperty Name="ZakladkaId" ColumnName="ZakladkaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZakladkaSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ContentDBModel.Zakladka)">
+        <MappingFragment StoreEntitySet="ZakladkaSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KeyWordsSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ContentDBModel.KeyWords)">
+        <MappingFragment StoreEntitySet="KeyWordsSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Words" ColumnName="Words" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

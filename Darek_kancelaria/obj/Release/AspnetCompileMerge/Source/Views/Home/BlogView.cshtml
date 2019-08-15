@@ -1,0 +1,31 @@
+﻿@model Darek_kancelaria.Models.BlogModel
+@{
+    ViewBag.Title = "BlogView";
+}
+
+<div class="ContentPadTop"></div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2> @if (Model != null)
+        {@Model.Title}</h2>
+        <hr />
+    </div>
+
+    <div style="text-align:justify;" class="col-md-12">
+        <div class="col-md-12">
+            <h4 style="line-height:35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="bigLetter">@if (Model != null){@Model.Content.First().ToString().ToUpper()}</span><span>@if (Model != null){@Model.Content.Substring(1)}
+                </span>
+            </h4>
+    </div>
+        </div>
+</div>
+
+<script>
+    $(function () {
+        $(".menu").each(function () {
+            this.classList.remove("selectedItem");
+        });
+        $("#blog.menu").addClass("selectedItem")
+    })
+</script>

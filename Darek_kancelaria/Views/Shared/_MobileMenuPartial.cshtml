@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNet.Identity
+
+    <ul class="nav navbar-nav hidden-lg hidden-md" style="color:#cabeb3">
+        <li class="menuSmall" style="font-size: 1em; color: white">@Html.ActionLink("Strona główna", "Index", "Home")</li>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <li class="menuSmall">@Html.ActionLink("O mnie", "AboutMe", "Home")</li>
+            <li class="menuSmall">@Html.ActionLink("Oferta", "Offer", "Home")</li>
+            <li class="menuSmall">@Html.ActionLink("Blog", "Blog", "Home")</li>
+            <li class="menuSmall">@Html.ActionLink("Kontakt", "Contact", "Home")</li>
+            using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+            {
+                @Html.AntiForgeryToken()
+                <li class="menuSmall" style="padding-top:30px;"><a href="javascript:document.getElementById('logoutForm').submit()">Wyloguj</a></li>
+                <li class="menuSmall" style="padding-top:30px;">@Html.ActionLink("Zarządzaj", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })</li>
+            }
+        }
+        else
+        {
+            <li class="menuSmall">@Html.ActionLink("O mnie", "AboutMe", "Home")</li>
+            <li class="menuSmall">@Html.ActionLink("Oferta", "Offer", "Home")</li>
+            <li class="menuSmall">@Html.ActionLink("Blog", "Blog", "Home")</li>
+            <li class="menuSmall">@Html.ActionLink("Kontakt", "Contact", "Home")</li>
+            <li>@Html.ActionLink("Zaloguj", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+
+        }
+    </ul>

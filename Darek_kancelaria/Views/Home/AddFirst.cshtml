@@ -1,0 +1,32 @@
+﻿@model Darek_kancelaria.Models.Content
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal" style="padding-top:120px;">
+        <h4>Edycja treści "Ogólne"</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Text, htmlAttributes: new { @class = "control-label col-md-12", @style="text-align: center" })
+            <div class="col-md-12">
+                @Html.TextAreaFor(model => model.Text,  new { @style = "width: 100%; height: 58vh" } )
+                
+            </div>
+            <div class="col-md-12 text-center">
+                @Html.ValidationMessageFor(model => model.Text, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class=" col-md-12 text-center ">
+                <input type="submit" value="ZAPISZ" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Wróć na strone główną", "Index")
+</div>

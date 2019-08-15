@@ -1,0 +1,25 @@
+﻿@model Darek_kancelaria.Models.PageContent
+<script>
+    $(function () {
+        $(".menu").each(function () {
+            this.classList.remove("selectedItem");
+        });
+        $("#offer.menu").addClass("selectedItem")
+    })
+</script>
+
+<div class="row ContentPadTop">
+    <div class="col-md-12">
+        <h2>@Model.Title</h2>
+        <hr />
+    </div>
+
+    <div class="col-md-12">
+        <div class="col-md-12">
+            <h4 style="text-align:justify; line-height:40px;">
+                @if (Model.Content != null)
+                {<span class="bigLetter">@Model.Content.First()</span> @Html.Raw(Model.Content.Substring(1))}
+            </h4>
+        </div>
+    </div>
+</div>

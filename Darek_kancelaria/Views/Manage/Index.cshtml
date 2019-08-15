@@ -1,0 +1,143 @@
+﻿@model Darek_kancelaria.Models.IndexViewModel
+@{
+    ViewBag.Title = "Zarządzaj";
+}
+
+
+
+
+<div class="row ContentPadTop">
+    <div>        
+        <h3 style="color:#923233">@ViewBag.StatusMessage</h3>
+    </div>
+    <div class="col-md-8">
+        <div>
+            <h4>Zmień ustawienia konta</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>Hasło:</dt>
+                <dd>
+                    [
+                    @if (Model.HasPassword)
+                    {
+                        @Html.ActionLink("Zmień hasło", "ChangePassword")
+                    }
+                    else
+                    {
+                        @Html.ActionLink("Utwórz", "SetPassword")
+                    }
+                    ]
+                </dd>
+                <br />
+                <dt>Dodaj użytkownika:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Dodaj", "Register", "Account")
+                    ]
+                </dd>
+            </dl>
+        </div>
+        <br />
+        <div>
+            <h4>Dane widoków </h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>Strona główna:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Edytuj dane", "AddMainPage", "Home")
+                    ]
+                </dd>
+                <br />
+                <dt>O Mnie:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Edytuj dane", "AddAboutMe", "Home")
+                    ]
+                </dd>
+                <br />
+                <dt>Oferta:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Edytuj dane", "AddOffer", "Home")
+                    ]
+                </dd>
+                <br />
+                <dt>Blog:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Dodaj wpis", "AddBlog", "Home")
+                    ]
+                    [
+                    @Html.ActionLink("Lista wpisów", "BlogList", "Home")
+                    ]
+                    [
+                    <span style="color:#923233">@Html.ActionLink("Usuń wszytkie wpisy", "BlogRemoveAll", "Home")</span>
+                    ]
+                </dd>
+                <br />
+                <dt>Kontakt:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Edytuj dane", "AddContact", "Home")
+                    ]
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h4>Statystyki</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>Liczba odwiedzin:</dt>
+            <dd style="color: #923233">
+
+                @Model.Visitors
+
+            </dd>
+            <br />
+            <dt>Liczba wysłanych maili:</dt>
+            <dd style="color:#923233">
+
+                @Model.MailSent
+
+            </dd>
+            <br />
+            <dt>Wyświetlenia Face'a:</dt>
+            <dd style="color:#923233">
+
+                @Model.FaceViews
+
+            </dd>
+            <br />
+            <dt>Dane osób (maile)</dt>
+            <dd>
+                [
+                @Html.ActionLink("Pokaż", "GetMailedIp", "Home")
+                ]
+                [
+                <span style="color:#923233">@Html.ActionLink("Usuń wszystkie", "RemoveVisitors","Home",new { mailers = true }, null)</span>
+                ]
+            </dd>
+            <br />
+            <dt>Dane odwiedzających</dt>
+            <dd>
+                [
+                @Html.ActionLink("Pokaż", "WhoViewed", "Home")
+                ]
+                [
+                <span style="color:#923233">@Html.ActionLink("Usuń wszystkie", "RemoveVisitors", "Home", new { mailers = false }, null)</span>
+                ]
+            </dd>
+            <br />
+        </dl>
+    </div>
+</div>
+<script>
+    $(function() {
+        $(".menu").each(function () {
+            this.classList.remove("selectedItem");
+        });
+        $("#manage.menu").addClass("selectedItem")
+    })
+</script>

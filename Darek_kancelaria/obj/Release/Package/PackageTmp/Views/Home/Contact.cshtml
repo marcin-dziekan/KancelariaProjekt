@@ -1,0 +1,95 @@
+﻿@model Darek_kancelaria.Models.EmailModel
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row mainColor form-horizontal ContentPadTop" style="font-family:'caviar'">
+        <div class="col-md-8 col-md-offset-4">
+            <h3 style="color:#923233">@ViewBag.Message</h3>
+        </div>
+        <div class="col-md-4" style="">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>ADRES</h2>
+                </div>
+                <div class="col-md-12">
+                    <address>
+                        <br />
+                        @if (@Model.Contact != null)
+                        {
+                            @Model.Contact.Address<br />
+                            <span>@Model.Contact.Code</span><span>&nbsp;</span><span> @Model.Contact.Postal</span><br />
+                            <abbr title="Telefon">Tel:</abbr>
+                            @Model.Contact.Phone<br />
+                            <abbr title="Adres email">Email:</abbr>
+                            @Model.Contact.Email
+                        }
+                    </address>
+                </div>
+            </div>
+            <div style="padding-top:37px;" class="row hidden-sm hidden-xs">
+                <div class="col-md-12">
+                    <h2>
+                        MAPA
+                    </h2>
+                </div>
+                <div class="col-md-12">
+                    <img width="90%" height="90%" style="max-height: 401px; max-width:360px" src="~/Images/modified_map.png" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-md-8">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <h2>
+                            NAPISZ DO MNIE
+                        </h2>
+                    </div>
+                    <div class="col-md-12">
+                        <h2 style="font-size: 1.3em">
+                            Imie
+                        </h2>
+                        @Html.TextBoxFor(Model => Model.Name, htmlAttributes: new { @class = "form-control txtField", @placeholder = "Twoje imię" })
+                    </div>
+                    <div class="col-md-12 text-left">
+                        @Html.ValidationMessageFor(Model => Model.Name, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-md-12">
+                        <h2 style="font-size: 1.3em">
+                            Email
+                        </h2>
+                        @Html.TextBoxFor(Model => Model.Email, htmlAttributes: new { @class = "form-control txtField", @placeholder = "Twój email" })
+                    </div>
+                    <div class="col-md-12 text-left">
+                        @Html.ValidationMessageFor(Model => Model.Email, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-md-12">
+                        <h2 style="font-size: 1.3em">
+                            Pytanie
+                        </h2>
+                        @Html.TextAreaFor(Model => Model.Question, htmlAttributes: new { @class = "form-control", @placeholder = "Treść zapytania", @style = "height:360px; width: 100%" })
+                    </div>
+                    <div class="col-md-12 text-left">
+                        @Html.ValidationMessageFor(Model => Model.Question, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-md-12" style="padding-top: 15px; padding-bottom:20px;">
+                        <input  type="submit" class="form-control btnStyle" value="WYŚLIJ" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+<script>
+    $(function() {
+        $(".menu").each(function () {
+            this.classList.remove("selectedItem");
+        });
+        $("#contact.menu").addClass("selectedItem")
+    })
+</script>

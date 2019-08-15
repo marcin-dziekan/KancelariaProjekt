@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ContentDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ContentDBModelStoreContainer">
+    <EntitySet Name="DeviceSet" EntityType="ContentDBModel.Store.DeviceSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ZakladkaSet" EntityType="ContentDBModel.Store.ZakladkaSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KeyWordsSet" EntityType="ContentDBModel.Store.KeyWordsSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="ZakladkaDeviceSet" Association="ContentDBModel.Store.ZakladkaDeviceSet">
+      <End Role="Zakladka" EntitySet="ZakladkaSet" />
+      <End Role="DeviceSet" EntitySet="DeviceSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="DeviceSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CText" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ZakladkaId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ZakladkaSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KeyWordsSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Words" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="ZakladkaDeviceSet">
+    <End Role="Zakladka" Type="ContentDBModel.Store.ZakladkaSet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DeviceSet" Type="ContentDBModel.Store.DeviceSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zakladka">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DeviceSet">
+        <PropertyRef Name="ZakladkaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,98 @@
+﻿
+
+@model PagedList.IPagedList<Darek_kancelaria.Models.BlogModel>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Blog";
+}
+
+    <div class="ContentPadTop row">
+
+        <div class="col-md-12">
+            <h2>Blog</h2>
+            <hr />
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-12">
+                @foreach (var item in Model)
+                {
+                    <a href="@Url.Action("BlogView", "Home", new { id = item.Id})">
+                        <div class="col-md-12" id="@item.Id" style="color:#000; background-color: #fff; margin-bottom:30px; border-radius: 5px;">
+                            <div class="row" style="position: relative">
+                                <div class="col-md-5 hidden-sm hidden-xs" style="width:100%; max-width:281px;">
+                                    <div class="row">
+                                        <img style="border-bottom-left-radius: 5px; border-top-left-radius: 5px;" src="~/Images/images (2).jpg" />
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-md-offset-1 col-sm-12 col-xs-12">
+                                    <div class="row blogTitle">
+                                        <div class="col-md-8" style="color:#fff;">
+                                            <h4 style="font-weight: bold">@Html.DisplayFor(modelItem => item.Title)</h4>
+                                        </div>
+                                        <div class="col-md-4 text-right" style=" color: #fff">
+                                            <h4>@Html.DisplayFor(modelItem => item.AddDate)</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" style="text-align:justify">
+                                        @if (@item.Content.Length > 401)
+                                        {
+                                            <h5>@item.Content.Substring(0, 400) ...</h5>
+                                        }
+                                        else
+                                        {
+                                            <h5>@item.Content.Substring(0, item.Content.Length - 1) ...</h5>
+                                        }
+                                    </div>
+                                    <div class="col-md-12 text-right" style="position: absolute; bottom: 0;">
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+                                            @Html.ActionLink("Edytuj ", "EditBlog", new { id = item.Id })
+                                            <span style="color:#923233">@Html.ActionLink("Usuń", "DeleteBlog", new { id = item.Id })</span>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                }
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h4>Strona @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) z @Model.PageCount</h4>
+                </div>
+                <div class="col-md-9 col-md-offset-3 text-center">
+                    @Html.PagedListPager(Model, page => Url.Action("Blog", new { page }))
+                </div>
+            </div>
+        </div>
+    </div>
+        <script>
+            $(function () {
+                $(".menu").each(function () {
+                    this.classList.remove("selectedItem");
+                });
+                $("#blog.menu").addClass("selectedItem")
+            })
+        </script>
+        @*<script>
+            $(function () {
+                $(".element").on("click", function () {
+                    var clickedId = this.getAttribute("id");
+                    $.ajax({
+                        dataType: "JSON",
+                        url: @Url.Action("DeleteBlog", "Home"),
+                        data: { "id": clickedId },
+                        success: function () {
+                            $(".element#" + clickedId).remove();
+                        },
+                        error: function () {
+                            window.location = @Url.Action("Error");
+                        }
+
+                    })
+                    })
+            })
+        </script>*@

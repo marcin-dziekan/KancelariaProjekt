@@ -1,0 +1,77 @@
+﻿@model Darek_kancelaria.Models.MainPageContent
+
+@{
+    ViewBag.Title = "Strona główna";
+}
+
+
+<div class="col-md-12 ContentPadTop">
+    <div class="row ">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="~/Images/slide-1.jpg" alt="ASP.NET" class="img-responsive" />
+                    <div class="carousel-caption" role="option">
+                        <h3 class="sherifTxt" style="float:left; margin-top:-200px; margin-left:-110px;">
+                            DOŚWIADCZONY ADWOKAT, <br />
+                            KTÓREMU MOŻESZ ZAUFAĆ.
+                        </h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="~/Images/slide-3.jpg" alt="Visual Studio" class="img-responsive" />
+                    <div class="carousel-caption sherifTxt" role="option">
+                        <h2 style="float:left; margin-top:-200px; margin-left:-50px;">
+                            MÓWIĘ TWOIM<br />
+                        </h2>
+                        <h1 style="float:left; margin-top:-170px; margin-left:-50px;">
+                            JĘZYKIEM
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="padding-top:20px;" class="row text-center">
+        <div class="col-md-4">
+            <article class="grid_1">
+                <h3 style="font-weight:bold">@if (Model.FirsGrid != null)
+                {@Model.FirsGrid.Title} </h3>
+                <figure>
+                    <img src="~/Images/pobrane (2).jpg" />
+                </figure>
+                <p style="text-align:justify" class="artTxt">
+                    @if (Model.FirsGrid != null)
+                    {@Model.FirsGrid.Content}
+                </p>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article  class="grid_2">
+                <h3 style="font-weight:bold">@if (Model.SecGrid != null)
+                {@Model.SecGrid.Title}</h3>
+                <figure>
+                    <img src="~/Images/page1-img2.jpg" />
+                </figure>
+                <p style="text-align:justify" class="artTxt">
+                    @if (Model.SecGrid != null)
+                    {@Model.SecGrid.Content}
+                </p>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article class="grid_2">
+                <h3 style="font-weight:bold">@if (Model.ThirdGrid != null)
+                {@Model.ThirdGrid.Title}</h3>
+                <figure>
+                    <img src="~/Images/EFE.png" />
+                </figure>
+                <p style="text-align:justify" class="artTxt">
+                    @if (Model.ThirdGrid != null)
+                    {@Model.ThirdGrid.Content}
+                </p>
+            </article>
+        </div>
+    </div>
+</div>
+
