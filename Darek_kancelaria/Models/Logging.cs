@@ -7,22 +7,24 @@ namespace Darek_kancelaria.Models
 {
     public static class Logging
     {
-        private static ContentContext _db;
+        private static ApplicationDbContext _db;
         static Logging()
         {
-            _db = new ContentContext();
+            _db = new ApplicationDbContext();
         }
 
         public static void SaveVisitor(string ip)
         {
-            var log = new Log
-            {
-                DateTime = DateTime.Now,
-                IpAddress = ip,
-                SMail = false
-            };
-            _db.Logs.Add(log);
-            _db.SaveChanges();
+            if (ip != "::1" && ip != "127.0.0.1") {
+                var log = new Log
+                {
+                    DateTime = DateTime.Now,
+                    IpAddress = ip,
+                    SMail = false
+                };
+                _db.Logs.Add(log);
+                _db.SaveChanges();
+            }
         }
 
 

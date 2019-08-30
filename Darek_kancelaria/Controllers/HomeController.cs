@@ -1,5 +1,7 @@
 ﻿using Darek_kancelaria.Models;
+using Darek_kancelaria.Repository;
 using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using PagedList;
 using System;
@@ -11,17 +13,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 using static Darek_kancelaria.Controllers.ManageController;
 
 namespace Darek_kancelaria.Controllers
 {
     public class HomeController : Controller
     {
-        private ContentContext _db;
-        ///private ApplicationUserManager _userManager;
+        private ApplicationDbContext _db;
+        private PersonRepo _pr;
+
         public HomeController()
         {
-            _db = new ContentContext();
+            _db = new ApplicationDbContext();
+            _pr = new PersonRepo();
         }
 
         public ActionResult Index()
@@ -34,7 +39,7 @@ namespace Darek_kancelaria.Controllers
         {
             return View(MPContent());
         }
-        
+
         /// <summary>
         /// Add main page content 
         /// </summary>
@@ -44,6 +49,7 @@ namespace Darek_kancelaria.Controllers
         [Authorize]
         public ActionResult AddMainPage(MainPageContent model)
         {
+
             if (ModelState.IsValid)
             {
                 SaveContent(model.FirsGrid, 1);
@@ -463,11 +469,29 @@ namespace Darek_kancelaria.Controllers
             }
             return View(model);
         }
-
-        public ActionResult Error()
+        [Authorize(Roles="Admin, Partner")]
+        public ActionResult GetUsersList(string kind)
         {
-            return View();
+            try
+            {
+                var pList = _pr.GetAllUsersByRole(kind).ToList();
+                if (pList != null)
+                {
+                    return View(pList);
+                }
+                else
+                {
+                    return View(new List<PersonModel>());
+                }
+            }
+            catch (Exception)
+            {
+                return View("Error");
+            }
         }
+
+
+
 
 
         #region HELPERS
@@ -596,7 +620,7 @@ namespace Darek_kancelaria.Controllers
                 }
                 else
                 {
-                    _db.Faces.Add(new FaceCountModel { Counter = 1});
+                    _db.Faces.Add(new FaceCountModel { Counter = 1 });
                     _db.SaveChanges();
                 }
                 _db.SaveChanges();
@@ -621,7 +645,8 @@ namespace Darek_kancelaria.Controllers
                     _db.Logs.RemoveRange(getVisitors);
                     _db.SaveChanges();
                 }
-                if (mailers) {
+                if (mailers)
+                {
                     return RedirectToAction("Index", "Manage", new { message = ManageMessageId.RemovedMailers });
                 }
                 return RedirectToAction("Index", "Manage", new { message = ManageMessageId.RemovedVisitors });
@@ -629,6 +654,27 @@ namespace Darek_kancelaria.Controllers
             catch (Exception)
             {
                 return RedirectToAction("Error");
+            }
+        }
+
+        
+
+        [Authorize(Roles =("Admin, Partner"))]
+        public JsonResult SearchUser(string user, string role)
+        {
+
+            try
+            {
+                var getUser = _pr.GetUsersByRoleAndName(user, role);
+                if (getUser != null)
+                {
+                    return Json(getUser, JsonRequestBehavior.AllowGet);
+                }
+                return Json("NULL", JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception)
+            {
+                return Json("ERROR", JsonRequestBehavior.AllowGet);
             }
         }
     }

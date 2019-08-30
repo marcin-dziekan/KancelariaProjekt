@@ -63,7 +63,7 @@ html {
 input,
 select
  {
-    max-width: 280px;
+    width: 280px;
 }
 
 .pageColor{
@@ -356,4 +356,24 @@ a{
     .ContentPadTop {
         padding-top: 120px;
     }
+}
+
+.clientField{
+    padding-right: 50px;
+    cursor:pointer;
+    line-height:30px;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #414141;
+    color: #fff;
+}
+tr:hover {
+    background-color: #923233;
+    color: #fff;
+}
+.mainColor {
+    color:#923233;
 }

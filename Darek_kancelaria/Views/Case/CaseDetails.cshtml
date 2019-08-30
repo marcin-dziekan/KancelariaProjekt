@@ -1,0 +1,163 @@
+﻿@model Darek_kancelaria.Models.CaseModel
+
+    <div class="ContentPadTop">
+        <h4>Dane sprawy</h4>
+        <hr />
+        <div class="row" style="margin-top: -25px;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>@Model.Type</h1>
+                        <h5>dodano: <span class="mainColor">@Model.AddDate</span> </h5>
+                    </div>
+
+                    <div class="col-md-6 text-right">
+                        <h4>Sygnatura akt: <span style="color:#923233">@Model.ActSignature</span></h4>
+                        <h4>Instancja: <span class="mainColor">@Model.Instance</span></h4>
+                        <h4>Należność: <span class="mainColor">@Model.Price.Sum(x => x.Cash) zł</span></h4>
+                        @if (Model.Status)
+                        {
+                            <h4>Status: <span class="mainColor">ZAMKNIĘTA</span></h4>
+                        }
+                        else
+                        {
+                            <h4>Status: <span class="mainColor">W TOKU</span></h4>
+                        }
+                        <input type="button" value="ZAMKNIJ SPRAWĘ" class="btnStyle" style="width:auto; line-height:20px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h4 style="margin-top:20px;">Dokumenty <span>( liczba dokumentów:  <span class="mainColor">@Model.DocumentsModels.Count()</span> )</span> </h4>
+                <hr />
+                <div class="row">
+                    @if (@Model.DocumentsModels.Count() == 0)
+                    {
+                        <div class="col-md-12 text-center text-danger">
+                            <h4>Brak dokumentów</h4>
+                        </div>
+                    }
+                    else
+                    {
+                        <table>
+                            @foreach (var z in Model.DocumentsModels)
+                            {
+                                <tr>
+                                    <td>
+                                        @z.Name
+                                    </td>
+                                    <td>
+                                        @z.Ext
+                                    </td>
+                                    <td>
+                                        @z.Added
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+                    }
+                    <div class="row">
+                        <div class="col-md-6 text-right">
+                            <input type="button" value="PRZEŚLIJ DOKUMENT" class="btnStyle" style="width:auto; margin-top:20px;" />
+                        </div>
+                        <div class="col-md-6 text-left">
+                            <input type="button" class="btnStyle" value="DODAJ DOKUMENT" style="width:auto; margin-top:20px;" />
+                        </div>
+                    </div>
+                </div>
+                <h4 style="margin-top:20px;">Dowody <span>( liczba dowodów:  <span class="mainColor">@Model.EvidenceModels.Count()</span> )</span> </h4>
+                <hr />
+                <div class="row">
+                    @if (@Model.EvidenceModels.Count() == 0)
+                    {
+                        <div class="col-md-12 text-center text-danger">
+                            <h4>Brak dowodów</h4>
+                        </div>
+                    }
+                    else
+                    {
+
+                    }
+                    <div class="text-center">
+                        <input type="button" class="btnStyle" value="PRZEŚLIJ DOWÓD" style="width:auto; margin-top:20px;" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 style="margin-top:20px;">Terminy <span>( liczba wydarzeń  <span class="mainColor">@Model.Terms.Count()</span> )</span> </h4>
+                <hr />
+                <div class="row">
+                    @if (@Model.Terms.Count() == 0)
+                    {
+                        <div class="col-md-12 text-center text-danger">
+                            <h4>Brak wydarzeń</h4>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-md-12">
+                            <table style="width: 100%">
+                                <tbody>
+                                    @foreach (var z in Model.Terms)
+                                    {
+
+                                        <tr class="clientRow">
+                                            <td class="clientField">
+                                                @z.Name
+                                            </td>
+                                            <td class="clientField text-right">
+                                                @z.Term.ToString("dd/mm/yyyy HH:MM")
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    <div class="text-center">
+                        <input type="button" class="btnStyle" value="DODAJ WYDARZENIE" style="width:auto; margin-top:20px;" />
+                    </div>
+                </div>
+                <h4 style="margin-top:20px;">Finanse <span>( zapłacono:  <span class="mainColor">@Model.Price.Sum(x => x.Cash) zł</span> )</span> </h4>
+                <hr />
+                <div class="row">
+                    @if (@Model.Price.Count() == 0)
+                    {
+                        <div class="col-md-12 text-center text-danger">
+                            <h4>Brak odnotowanych płatności</h4>
+                        </div>
+                    }
+                    else
+                    {
+                <div class="col-md-12">
+                    <table style="width: 100%">
+                        <tbody>
+                            @foreach (var z in Model.Price)
+                            {
+
+                            <tr class="clientRow">
+                                <td class="clientField">
+                                    @z.ServiceName
+                                </td>
+                                <td class="clientField text-right">
+                                    @z.Cash zł
+                                </td>
+                                <td class="clientField text-right" style="color:#923233; width:auto;">
+                                    <a>DRUKUJ</a>
+                                </td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                    }
+                    <div class="text-center">
+                        <input type="button" class="btnStyle" value="DODAJ PŁATNOŚĆ" style="width:auto; margin-top:20px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    

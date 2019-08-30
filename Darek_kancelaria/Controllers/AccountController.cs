@@ -9,6 +9,8 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Darek_kancelaria.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
+using System.Collections.Generic;
 
 namespace Darek_kancelaria.Controllers
 {
@@ -52,6 +54,71 @@ namespace Darek_kancelaria.Controllers
             }
         }
 
+        [Authorize(Roles = "Admin, Partner")]
+        public ActionResult GetClientInfo(string id)
+        {
+            try
+            {
+                ApplicationDbContext context = new ApplicationDbContext();
+                var cases = new Cases();
+                var getUserInfo = context.Users.Where(x => x.Id == id).Select(x => new PersonModel { Name = x.Name, FName = x.FName, Address = x.Address, Email = x.Email, Phone = x.PhoneNumber, Zip = x.Zip, Id = x.Id, AddDate = x.AddDate }).FirstOrDefault();
+                cases.personelModel = getUserInfo;
+                cases.CasesList = context.Cases.Where(x => x.UserId == id).Select(x => x).ToList();
+                var role = UserManager.GetRoles(id);
+
+                return View(cases);
+            }
+            catch (Exception)
+            {
+                return RedirectToAction("Error");
+            }
+        }
+
+
+        [HttpPost]
+        [Authorize]
+        public ActionResult GetClientInfo(Cases model)
+        {
+            if (ModelState.IsValid)
+            {
+                var context = new ApplicationDbContext();
+                var cm = new CaseModel
+                {
+                    ActSignature = model.Case.ActSignature,
+                    Type = model.Case.Type,
+                    Price = model.Case.Price,
+                    Instance = model.Case.Instance,
+                    UserId = model.personelModel.Id
+                };
+                context.Cases.Add(cm);
+                context.SaveChanges();
+
+                model.CasesList.Clear();
+                var userId = model.personelModel.Id;
+                model.Case.Instance = "";
+                model.Case.PriceAll = "";
+                model.Case.Type = "";
+                model.Case.ActSignature = "";
+                return View(model);
+            }
+            else
+            {
+                return View(model);
+            }
+        }
+
+
+        public ActionResult GetPartnerInfo(PersonModel pm)
+        {
+
+            return View(pm);
+        }
+
+
+        public ActionResult Error()
+        {
+            return View();
+        }
         //
         // GET: /Account/Login
         [AllowAnonymous]
@@ -134,27 +201,65 @@ namespace Darek_kancelaria.Controllers
             }
         }
 
-        //[Authorize]
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
         public ActionResult Register()
         {
+            var list = new List<SelectListItem>();
+            list.Add(new SelectListItem { Text = "Klient", Value = "1" });
+            list.Add(new SelectListItem { Text = "Partner", Value = "2" });
+            ViewBag.List = list;
             return View();
         }
 
 
         [HttpPost]
-        //[Authorize]
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {
+            var list = new List<SelectListItem>();
+            list.Add(new SelectListItem { Text = "Klient", Value = "1" });
+            list.Add(new SelectListItem { Text = "Partner", Value = "2" });
+            ViewBag.List = list;
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Name = model.Name, FName = model.FName, Address = model.Address, Zip = model.Zip, PhoneNumber = model.Phone, AddDate = DateTime.Now};
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
+                    ApplicationDbContext context = new ApplicationDbContext();
+                    var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+                    if (!roleManager.RoleExists("Partner"))
+                    {
+                        var role = new IdentityRole("Partner");
+                        roleManager.Create(role);
+                    }
+                    if (!roleManager.RoleExists("Client"))
+                    {
+                        var role = new IdentityRole("Client");
+                        roleManager.Create(role);
+                    }
+                    if (model.SelectedUserType == "2")
+                    {
+                        var res = UserManager.AddToRole(user.Id, "Partner");
+                    }
+                    else if(model.SelectedUserType == "1")
+                    {
+                        var res = UserManager.AddToRole(user.Id, "Client");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Error");
+                    }
+
+                    try
+                    {
+                        MailHelper.SendMessage(model.Email, model.Email, model.Password, model.Name + " " + model.FName);
+                    }
+                    catch (Exception)
+                    {
+
+                    }
                     
                     // Aby uzyskać więcej informacji o sposobie włączania potwierdzania konta i resetowaniu hasła, odwiedź stronę https://go.microsoft.com/fwlink/?LinkID=320771
                     // Wyślij wiadomość e-mail z tym łączem

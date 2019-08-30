@@ -1,51 +1,71 @@
 ﻿
-<div class="row">
-    <div>
-        <h4>Dane widoków </h4>
-        <hr />
-        <dl class="dl-horizontal">
-            <dt>Strona główna:</dt>
-            <dd>
-                [
-                @Html.ActionLink("Edytuj dane", "AddMainPage", "Home")
-                ]
-            </dd>
-            <br />
-            <dt>O Mnie:</dt>
-            <dd>
-                [
-                @Html.ActionLink("Edytuj dane", "AddAboutMe", "Home")
-                ]
-            </dd>
-            <br />
-            <dt>Oferta:</dt>
-            <dd>
-                [
-                @Html.ActionLink("Edytuj dane", "AddOffer", "Home")
-                ]
-            </dd>
-            <br />
-            <dt>Blog:</dt>
-            <dd>
-                [
-                @Html.ActionLink("Dodaj wpis", "AddBlog", "Home")
-                ]
-                [
-                @Html.ActionLink("Lista wpisów", "BlogList", "Home")
-                ]
-                [
-                <span style="color:#923233">@Html.ActionLink("Usuń wszytkie wpisy", "BlogRemoveAll", "Home")</span>
-                ]
-            </dd>
-            <br />
-            <dt>Kontakt:</dt>
-            <dd>
-                [
-                @Html.ActionLink("Edytuj dane", "AddContact", "Home")
-                ]
-            </dd>
-        </dl>
+    <div class="row">
+        <div>
+            <h4>Użytkownicy</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>Klienci:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Lista klientów", "GetUsersList", "Home", new { kind = "Client" }, null)
+                    ]
+                </dd>
+                <br />
+                <dt>Partnerzy:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Lista partnerów", "GetUsersList", "Home", new { kind = "Partner" }, null)
+                    ]
+                </dd>
+            </dl>
+        </div>
         <br />
+        <div>
+            <h4>Dane widoków </h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>Strona główna:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Edytuj dane", "AddMainPage", "Home")
+                    ]
+                </dd>
+                <br />
+                <dt>O Mnie:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Edytuj dane", "AddAboutMe", "Home")
+                    ]
+                </dd>
+                <br />
+                <dt>Oferta:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Edytuj dane", "AddOffer", "Home")
+                    ]
+                </dd>
+                <br />
+                <dt>Blog:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Dodaj wpis", "AddBlog", "Home")
+                    ]
+                    [
+                    @Html.ActionLink("Lista wpisów", "BlogList", "Home")
+                    ]
+                    [
+                    <span style="color:#923233">@Html.ActionLink("Usuń wszytkie wpisy", "BlogRemoveAll", "Home")</span>
+                    ]
+                </dd>
+                <br />
+                <dt>Kontakt:</dt>
+                <dd>
+                    [
+                    @Html.ActionLink("Edytuj dane", "AddContact", "Home")
+                    ]
+                </dd>
+            </dl>
+            <br />
             <h4>Statystyki (skrócone)</h4>
             <hr />
             <dl class="dl-horizontal">
@@ -65,6 +85,6 @@
                 <br />
             </dl>
 
+        </div>
     </div>
-</div>
 

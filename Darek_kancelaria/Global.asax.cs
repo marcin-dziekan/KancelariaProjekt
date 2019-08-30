@@ -1,5 +1,7 @@
 ﻿using Darek_kancelaria.Controllers;
 using Darek_kancelaria.Models;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,30 +21,30 @@ namespace Darek_kancelaria
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            // WAŻNE !!!!
-            //Żeby utwożyć nowe konto w kontrolerze Account zmienić filtr na AllowAnonmous. Kod poniżej nie działa, żeby utworzyć nowego użytkownika trzeba byćzalogowanycm stąd ten błąd!!!
+            ApplicationDbContext context = new ApplicationDbContext();
+            var UserManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+            if (!roleManager.RoleExists("Admin"))
+            {
+                var role = new IdentityRole("Admin");
+                roleManager.Create(role);
+            }
 
-            //using(var db = new ApplicationDbContext())
-            //{
-            //    if(!db.Users.Where(x => x.Email == "dariusz_dziekan@wp.pl").Any())
-            //    {
-            //        var regModel = new RegisterViewModel
-            //        {
-            //            Email = "dariusz_dziekan@wp.pl",
-            //            Password = "Maximus,.1",
-            //            ConfirmPassword = "Maximus,.1"
-            //        };
-            //        var registered = new AccountController().Register(regModel);
-            //    }
-            //}
-            //using(var cc = new ContentContext())
-            //{
-            //    if (!cc.Faces.Any())
-            //    {
-            //        cc.Faces.Add(new FaceCountModel());
-            //        cc.SaveChanges();
-            //    }
-            //}
+            string pass = "temporaryPass";
+            var checkUser = UserManager.FindByEmail("marcin_dziekan@wp.pl");
+            if (checkUser == null)
+            {
+                var user = new ApplicationUser();
+                user.UserName = "marcin_dziekan@wp.pl";
+                user.Email = "marcin_dziekan@wp.pl";
+                user.AddDate = DateTime.Now;
+                var adminUser = UserManager.Create(user, pass);
+                if (adminUser.Succeeded)
+                {
+                    var result = UserManager.AddToRole(user.Id, "Admin");
+                }
+            }
+
         }
         protected void Session_Start()
         {

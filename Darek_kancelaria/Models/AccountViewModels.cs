@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 
 namespace Darek_kancelaria.Models
 {
@@ -62,7 +63,7 @@ namespace Darek_kancelaria.Models
         public bool RememberMe { get; set; }
     }
 
-    public class RegisterViewModel
+    public class RegisterViewModel : PersonModel
     {
         [Required]
         [EmailAddress]
@@ -77,8 +78,12 @@ namespace Darek_kancelaria.Models
 
         [DataType(DataType.Password)]
         [Display(Name = "Potwierdź hasło")]
-        [Compare("Password", ErrorMessage = "Hasło i jego potwierdzenie są niezgodne.")]
+        [System.ComponentModel.DataAnnotations.Compare("Password", ErrorMessage = "Hasło i jego potwierdzenie są niezgodne.")]
         public string ConfirmPassword { get; set; }
+
+        [Display(Name = "Typ użytkownika")]
+
+        public string SelectedUserType { get; set; }
     }
 
     public class ResetPasswordViewModel
@@ -96,7 +101,7 @@ namespace Darek_kancelaria.Models
 
         [DataType(DataType.Password)]
         [Display(Name = "Potwierdź hasło")]
-        [Compare("Password", ErrorMessage = "Hasło i jego potwierdzenie są niezgodne.")]
+        [System.ComponentModel.DataAnnotations.Compare("Password", ErrorMessage = "Hasło i jego potwierdzenie są niezgodne.")]
         public string ConfirmPassword { get; set; }
 
         public string Code { get; set; }

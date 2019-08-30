@@ -1,0 +1,25 @@
+﻿@model Darek_kancelaria.Models.PersonModel
+
+    <div class="ContentPadTop">
+        <h4>Informacje o partnerze</h4>
+        <hr />
+        <div class="col-md-12">
+            <h1>@Model.Name.ToUpper() <span class="mainColor">@Model.FName.ToUpper()</span></h1>
+            <h5>dodano( <span class="mainColor">@Model.AddDate.ToShortDateString()</span> )</h5>
+        </div>
+        <hr />
+        <div class="col-md-12">
+            <h4>Adres: <span class="mainColor">@Model.Address</span></h4>
+        </div>
+        <div class="col-md-12">
+            <h4>Poczta: <span class="mainColor">@Model.Zip</span></h4>
+        </div>    <div class="col-md-12">
+            <h4>Telefon: <span class="mainColor">@Model.Phone</span></h4>
+        </div>    <div class="col-md-12">
+            <h4>Email: <span class="mainColor">@Model.Email</span></h4>
+        </div>
+
+        <h4 style="margin-top:270px;">Prowadzone sprawy</h4>
+        <hr />
+
+    </div>

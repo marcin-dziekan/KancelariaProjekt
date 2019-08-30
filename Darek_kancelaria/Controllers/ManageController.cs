@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Darek_kancelaria.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Darek_kancelaria.Controllers
 {
@@ -74,7 +75,7 @@ namespace Darek_kancelaria.Controllers
                 Logins = await UserManager.GetLoginsAsync(userId),
                 BrowserRemembered = await AuthenticationManager.TwoFactorBrowserRememberedAsync(userId)
             };
-            using(var db = new ContentContext())
+            using(var db = new ApplicationDbContext())
             {
                 model.Visitors = db.Logs.Where(x => x.SMail == false).Count().ToString();
                 model.MailSent = db.Logs.Where(x => x.SMail == true).Count().ToString();
@@ -340,8 +341,9 @@ namespace Darek_kancelaria.Controllers
 
             base.Dispose(disposing);
         }
+       
 
-#region Pomocnicy
+        #region Pomocnicy
         // Służy do ochrony XSRF podczas dodawania logowań zewnętrznych
         private const string XsrfKey = "XsrfId";
 

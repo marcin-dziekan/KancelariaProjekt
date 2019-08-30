@@ -1,0 +1,148 @@
+﻿@model List<Darek_kancelaria.Models.PersonModel>
+
+    <div class="ContentPadTop" >
+        <h4>Lista użytkowników kancelarii</h4>
+        <hr />
+        @if (Model.Count != 0)
+        {
+    <div class="row">
+        <div class="col-md-9 col-sm-12 col-xs-12">
+            <input id="searchTxt" type="text" style="width:100%; line-height:42px; color: #000;" placeholder="Podaj imie lub nazwisko użytkownika" />
+        </div>
+        <div class="col-md-3 col-sm-12 col-xs-12">
+            <input id="sBtn" type="submit" class="btn btnStyle" value="SZUKAJ" style="width: 100%" />
+        </div>
+    </div>
+        <table style="margin-top:30px; width: 100%">
+            <thead>
+                <tr>
+                    <th>
+                        IMIE
+                    </th>
+                    <th>
+                        NAZWISKO
+                    </th>
+                    <th>
+                        ADRES
+                    </th>
+                    <th>
+                        KOD POCZTOWY
+                    </th>
+                    <th>
+                        TELEFON
+                    </th>
+                    <th>
+                        EMAIL
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                @foreach (var z in Model)
+                {
+                    if (z.Role == "Client")
+                    {
+                <tr class="clientRow" onclick="location.href='/Account/GetClientInfo?id=@z.Id'">
+
+                    <td class="clientField">
+
+                        @z.Name
+                    </td>
+                    <td class="clientField">
+                        @z.FName
+                    </td>
+                    <td class="clientField">
+                        @z.Address
+                    </td>
+                    <td class="clientField">
+                        @z.Zip
+                    </td>
+                    <td class="clientField">
+                        @z.Phone
+                    </td>
+                    <td class="clientField">
+                        @z.Email
+                    </td>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <td>
+                            <a href="/Home/PersonEdit?id=@z.Id">EDYTUJ</a>
+                        </td>
+                        <td style="color:#923233; cursor:pointer">
+                            <a id="@z.Id">USUŃ</a>
+                        </td>
+                    }
+                </tr>
+                    }
+                    else
+                    {
+            <tr class="clientRow" onclick="location.href='/Account/GetPartnerInfo?id=@z.Id'">
+
+                <td class="clientField">
+                    @z.Name
+                </td>
+                <td class="clientField">
+                    @z.FName
+                </td>
+                <td class="clientField">
+                    @z.Address
+                </td>
+                <td class="clientField">
+                    @z.Zip
+                </td>
+                <td class="clientField">
+                    @z.Phone
+                </td>
+                <td class="clientField">
+                    @z.Email
+                </td>
+                @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                {
+                    <td>
+                        <a href="/Home/PersonEdit?id=@z.Id">EDYTUJ</a>
+                    </td>
+                    <td style="color:#923233; cursor:pointer">
+                        <a id="@z.Id">USUŃ</a>
+                    </td>
+                }
+            </tr>
+                    }
+                }
+            </tbody>
+        </table>
+        }
+        else
+        {
+            <div class="col-md-12 text-center">
+                <h2>Brak użytkowników do wyświetlenia.</h2>
+            </div>
+        }
+    </div>
+    <script>
+    $(function () {
+        $("#sBtn").on("click", function () {
+            var role = '@Model[0].Role';
+            $.ajax({
+                dataType: "JSON",
+                type: "POST",
+                cache: false,
+                url: '@Url.Action("SearchUser", "Home")',
+                data: { "user": $("#searchTxt").val(), "role": role },
+                success: function (data) {
+                    if (data != "ERROR") {
+                        $(".clientRow").each(function () { this.remove(); });
+                        for (var z = 0; z < data.length; z++)
+                        {
+                            $("#tbody").append('<tr class="clientRow"  onclick="location.href=`/Account/Get'+role+'Info?id='+data[z].Id+'`"><td class="clientField">' + data[z].Name + '</td><td class="clientField">' + data[z].FName + '</td><td class="clientField">' + data[z].Address + '</td><td class="clientField">' + data[z].Zip + '</td><td class="clientField">' + data[z].Phone + '</td><td class="clientField">' + data[z].Email + '</td></tr>');
+                        }
+                    } else {
+                       window.location = '@Url.Action("Error", "Home")';
+                    }
+                },
+                error: function () {
+                    window.location = '@Url.Action("Error", "Home")';
+                }
+            })
+
+        })
+    })
+    </script>

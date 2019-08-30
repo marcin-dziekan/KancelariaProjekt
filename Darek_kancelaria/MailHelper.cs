@@ -18,7 +18,7 @@ namespace Darek_kancelaria
 
         public static bool SendMessage(string mailCallback, string content, string fromWho)
         {
-            using (var db = new ContentContext())
+            using (var db = new ApplicationDbContext())
             {
                 var mailClient = db.Contacts.FirstOrDefault();
                 if (mailClient != null)
@@ -42,6 +42,24 @@ namespace Darek_kancelaria
                 }
             }
         }
+        public static bool SendMessage(string sendTo, string login, string pass, string clientName)
+        {
+            using (var db = new ApplicationDbContext())
+            {
+                using (MailMessage mail = new MailMessage())
+                {
+                    mail.From = new MailAddress("kancelariamessage@gmail.com", "Portal Kancelarii Adwokackiej Dariusz Dziekan", Encoding.UTF8);
+                    mail.Subject = "Witam Pana/Panią " + clientName + " w Kancelarii Adwokackiej Dariusz Dziekan";
+                    mail.Body = "Dzień Dobry <br /> Poniżej znadziecie Państwo dane niezbędne do zalogowania w serwisie http://adwokat.dziekan.pl <br/> Login: " + login + "<br/> Hasło: " + pass + "<br/> Pozdrawiamy, <br/> Kancelaria Adwokacka Dariusz Dziekan";
+                    mail.IsBodyHtml = true;
+                    mail.Priority = MailPriority.High;
+                    mail.SubjectEncoding = Encoding.UTF8;
+                    mail.To.Add(new MailAddress(sendTo));
+                    _smtpClient.Send(mail);
+                    return true;
+                }
 
+            }
+        }
     }
 }

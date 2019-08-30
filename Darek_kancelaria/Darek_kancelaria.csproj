@@ -146,6 +146,7 @@
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -202,26 +203,39 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="MailHelper.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\BlogModel.cs" />
+    <Compile Include="Models\CaseModel.cs" />
     <Compile Include="Models\ContactModel.cs" />
     <Compile Include="Models\Content.cs" />
-    <Compile Include="Models\ContentContext.cs" />
     <Compile Include="Models\EmailModel.cs" />
+    <Compile Include="Models\EvidenceModel.cs" />
     <Compile Include="Models\FaceCountModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Log.cs" />
     <Compile Include="Models\Logging.cs" />
     <Compile Include="Models\MainPageContent.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\PersonModel.cs" />
+    <Compile Include="Models\Price.cs" />
+    <Compile Include="Models\Termcs.cs" />
     <Compile Include="Models\ViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\CaseRepo.cs" />
+    <Compile Include="Repository\ICase.cs" />
+    <Compile Include="Repository\IPrice.cs" />
+    <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\IPersonRepository.cs" />
+    <Compile Include="Repository\PersonRepo.cs" />
+    <Compile Include="Repository\PriceRepo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -350,6 +364,14 @@
     <Content Include="Views\Home\WhoViewed.cshtml" />
     <Content Include="Views\Shared\FullSiteManagerMenu.cshtml" />
     <Content Include="Views\Home\Error.cshtml" />
+    <Content Include="Views\Shared\_AdminManage.cshtml" />
+    <Content Include="Views\Shared\_PartnerManage.cshtml" />
+    <Content Include="Views\Shared\_ClientManage.cshtml" />
+    <Content Include="Views\Home\GetUsersList.cshtml" />
+    <Content Include="Views\Account\PartnerInfo.cshtml" />
+    <Content Include="Views\Account\ClientInfo.cshtml" />
+    <Content Include="Views\Account\GetClientInfo.cshtml" />
+    <Content Include="Views\Case\CaseDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

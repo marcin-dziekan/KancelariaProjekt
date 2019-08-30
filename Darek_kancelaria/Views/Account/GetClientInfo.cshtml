@@ -1,0 +1,168 @@
+﻿@model Darek_kancelaria.Models.Cases
+    <div class="ContentPadTop">
+        <h4>Informacje o kliencie</h4>
+        <hr />
+        <div class="row" style="margin-top: -25px;">
+            <div class="col-md-12">
+                <h1>@Model.personelModel.Name.ToUpper() <span class="mainColor">@Model.personelModel.FName.ToUpper()</span></h1>
+                <h5>dodano: <span class="mainColor">@Model.personelModel.AddDate.ToShortDateString()</span> </h5>
+            </div>
+            <div class="col-md-12" style="margin-top: -5px;">
+                <h5>Adres: <span class="mainColor">@Model.personelModel.Address</span></h5>
+            </div>
+            <div class="col-md-12" style="margin-top: -5px;">
+                <h5>Poczta: <span class="mainColor">@Model.personelModel.Zip</span></h5>
+            </div>
+            <div class="col-md-12" style="margin-top: -5px;">
+                <h5>Telefon: <span class="mainColor">@Convert.ToInt64(Model.personelModel.Phone).ToString("###-###-###")</span></h5>
+            </div>
+            <div class="col-md-12" style="margin-top: -5px;">
+                <h5>Email: <span class="mainColor">@Model.personelModel.Email</span></h5>
+            </div>
+        </div>
+        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+        {
+            <h4 style="margin-top:20px;">Dodaj sprawę</h4>
+            <hr />
+            <div class="row">
+
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <input id="caseType" type="text" style="width:100%; line-height:42px; color: #000;" , placeholder="Rodzaj sprawy" />
+                </div>
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <input id="actSignature" type="text" style="width:100%; line-height:42px; color: #000;" , placeholder="Sygnatura akt" />
+                </div>
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <input id="instance" type="text" style="width:100%; line-height:42px; color: #000;" , placeholder="Instancja" />
+                </div>
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <input id="confirm" type="submit" class="btn btnStyle" value="DODAJ" style="width: 100%" />
+                </div>
+
+            </div>
+        }
+            <h4 style="margin-top:30px;">Prowadzone sprawy</h4>
+            <hr />
+            <div class="row">
+                <div class="col-md-12">
+                    <table style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Rodzaj sprawy
+                                </th>
+                                <th>
+                                    Sygnatura akt
+                                </th>
+                                <th>
+                                    Instancja
+                                </th>
+                                <th>
+                                    Dodano
+                                </th>
+                                <th>
+                                    Status
+                                </th>
+                                </tr>
+                        </thead>
+                        <tbody id="tbody">
+                            @foreach (var z in Model.CasesList)
+                            {
+                                <tr class="clientRow" onclick="location.href='/Case/CaseDetails?id=@z.Id'">
+                                    <td class="clientField">
+                                        @z.Type
+                                    </td>
+                                    <td class="clientField">
+                                        @z.ActSignature
+                                    </td>
+                                    <td class="clientField">
+                                        @z.Instance
+                                    </td>
+                                    @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") || User.IsInRole("Client")))
+                                    {
+                                        <td>
+                                            @z.AddDate
+                                        </td>
+                                        <td>
+                                            @if (z.Status)
+                                            {
+                                                <span>ZAMKNIĘTA</span>
+                                            }
+                                            else
+                                            {
+                                                <span>W TOKU</span>
+                                            }
+                                        </td>
+                                        if (User.IsInRole("Admin"))
+                                        {
+                                        <td>
+                                            <a href="/Home/CaseEdit?id=@z.Id">EDYTUJ</a>
+                                        </td>
+                                        <td style="color:#923233; cursor:pointer">
+                                            <a id="@z.Id">USUŃ</a>
+                                        </td>
+                                        }
+                                    }
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">USUWANIE SPRAWY</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4>CZY JESTEŚ PEWNY ŻE CHCESZ USUNĄĆ TĘ SPRAWĘ???</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+                    <button type="button" class="btn btn-primary">USUŃ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    $(function () {
+        $("#confirm").on("click", function () {
+            if ($("#instance").val() != "" && $("#caseType").val() != "") {
+                $.ajax({
+                    dataType: "JSON",
+                    type: "POST",
+                    cache: false,
+                    url: '@Url.Action("SaveCase", "Case")',
+                    data: { "type": $("#caseType").val(), "signature": $("#actSignature").val(), "instance": $("#instance").val(), "price": $("#price").val(), "id": '@Model.personelModel.Id' },
+                    success: function (data) {
+                        alert(data.Id + "cos");
+                        if (data != "ERROR") {
+                            $("#instance").val("");
+                            $("#caseType").val("");
+                            $("#actSignature").val("");
+                            @*$("#tbody").append('<tr class="clientRow" onclick="location.href=`/Case/CaseDetails?id=' + data.Id + '`"><td class="clientField">' + data.Type + '</td><td class="clientField">' + data.ActSignature + '</td><td class="clientField">' + data.Instance + '</td><td class="clientField">' + '@DateTime.Now' + '</td><td class="clientField"><a href="/Home/CaseEdit?id=' + data.Id + '">EDYTUJ</a></td><td class="clientField"><a style="color:#923233;" id=' + data.Id + '>USUŃ</a></td></tr>')*@
+                            window.location.href = '/Case/CaseDetails?id=' + data.Id;
+                        } else {
+                            //window.location = '@Url.Action("Error", "Home")'
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        alert(xhr.responseText);
+                    }
+
+                })
+            } else {
+                $("#addedTxt").text("Pole Sygnatura akt NIE jest obowiązkowe.")
+                 $("#mod").modal("show");
+                 setTimeout(function () { $("#mod").modal("hide"); }, 2000);
+            }
+        })
+    })
+</script>

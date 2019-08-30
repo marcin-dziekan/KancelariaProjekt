@@ -36,14 +36,14 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-      
+
         <div class="center" style=" float:right;">
             <div id="social-test" style="background-color:#1B1B1B">
                 <ul class="social" style="padding-top: 12px; padding-right: 12px;">
                     <li id="facebookLink"><i class="fa fa-facebook" aria-hidden="true" href="https://www.facebook.com/profile.php?id=100013967525286"></i></li>
                     <li>
                         <a class="fa fa-envelope" aria-hidden="true" href="~/Home/Contact">
-                            
+
                         </a>
                     </li>
                     @*<li><i class="fa fa-skype" aria-hidden="true"></i></li>*@
@@ -55,7 +55,16 @@
             <p>&copy; @DateTime.Now.Year — Kancelaria Prawna - Dariusz Dziekan - Designed and created by <a href="mailTo:marcin_dziekan@wp.pl">Marcin Dziekan</a></p>
         </footer>
     </div>
-
+    <div class="modal fade text-center" id="mod" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div style="background-color:#333333" class="modal-body">
+                    <h5 style="color:#923233; font-weight:bold;">WYPEŁNIJ WSZYSTKIE POLA !</h5>
+                    <h5 id="addedTxt"></h5>
+                </div>
+            </div>
+        </div>
+    </div>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

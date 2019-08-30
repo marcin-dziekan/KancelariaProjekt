@@ -1,0 +1,62 @@
+﻿@model Darek_kancelaria.Models.Cases
+    <div class="ContentPadTop">
+        <h4>Informacje o kliencie</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-12">
+                <h1>@Model.personelModel.Name.ToUpper() <span class="mainColor">@Model.personelModel.FName.ToUpper()</span></h1>
+                <h5>dodano( <span class="mainColor">@Model.personelModel.AddDate.ToShortDateString()</span> )</h5>
+            </div>
+            <hr />
+            <div class="col-md-12">
+                <h4>Adres: <span class="mainColor">@Model.personelModel.Address</span></h4>
+            </div>
+            <div class="col-md-12">
+                <h4>Poczta: <span class="mainColor">@Model.personelModel.Zip</span></h4>
+            </div>    <div class="col-md-12">
+                <h4>Telefon: <span class="mainColor">@Model.personelModel.Phone</span></h4>
+            </div>    <div class="col-md-12">
+                <h4>Email: <span class="mainColor">@Model.personelModel.Email</span></h4>
+            </div>
+        </div>
+        <h4 style="margin-top:30px;">Dodaj sprawę</h4>
+        <hr />
+        <div class="row">
+            @using (Html.BeginForm("SaveClientInfo","Account"))
+            { 
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                @Html.TextBoxFor(m => m.Case.Type, htmlAttributes: new { @style="width:100%; line-height:42px; color: #000;", @placeholder = "Rodzaj sprawy" } )
+                @Html.ValidationMessageFor(m => m.Case.Type, null, new { @class="text-danger"})
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                @Html.TextBoxFor(m => m.Case.ActSignature, htmlAttributes: new { @style="width:100%; line-height:42px; color: #000;", @placeholder = "Sygnatura akt" })
+                @Html.ValidationMessageFor(m => m.Case.ActSignature, null, new { @class="text-danger"})
+            </div>
+            <div class="col-md-2 col-sm-12 col-xs-12">
+                @Html.TextBoxFor(m => m.Case.Instance, htmlAttributes: new { @style="width:100%; line-height:42px; color: #000;", @placeholder = "Instancja" })
+                @Html.ValidationMessageFor(m => m.Case.Instance, null, new { @class="text-danger"})
+            </div>
+            <div class="col-md-2 col-sm-12 col-xs-12">
+                @Html.TextBoxFor(m => m.Case.Price, htmlAttributes: new { @style = "width:100%; line-height:42px; color: #000;", @placeholder = "Cena" })
+                @Html.ValidationMessageFor(m => m.Case.Price, null, new { @class = "text-danger" })
+                @Html.HiddenFor(m => m.personelModel.AddDate)
+                @Html.HiddenFor(m => m.personelModel.Address)
+                @Html.HiddenFor(m => m.personelModel.Email)
+                @Html.HiddenFor(m => m.personelModel.FName)
+                @Html.HiddenFor(m => m.personelModel.Id)
+                @Html.HiddenFor(m => m.personelModel.Name)
+                @Html.HiddenFor(m => m.personelModel.Phone)
+                @Html.HiddenFor(m => m.personelModel.Zip)
+                @Html.HiddenFor(m => m.CasesList)
+            </div>
+
+            <div class="col-md-2 col-sm-12 col-xs-12">
+                <input type="submit" class="btn btnStyle" value="DODAJ" style="width: 100%" />
+            </div>
+            }
+        </div>
+
+        <h4 style="margin-top:30px;">Prowadzone sprawy</h4>
+        <hr />
+    </div>
+
