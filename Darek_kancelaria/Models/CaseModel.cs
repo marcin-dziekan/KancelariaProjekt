@@ -23,6 +23,7 @@ namespace Darek_kancelaria.Models
         [Display(Name ="Cena")]
         public string PriceAll { get; set; }
         public string UserId { get; set; }
+        public string Result { get; set; }
         public bool Status { get; set; }
         public DateTime AddDate { get; set; }
         [Newtonsoft.Json.JsonIgnore]

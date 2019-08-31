@@ -14,17 +14,22 @@ namespace Darek_kancelaria.Controllers
     {
         private CaseRepo _cr;
         private PriceRepo _pp;
+        private PersonRepo _pr;
         public CaseController()
         {
             _cr = new CaseRepo();
             _pp = new PriceRepo();
+            _pr = new PersonRepo();
         }
 
         [Authorize(Roles = ("Admin, Partner"))]
         public ActionResult CaseDetails(int id)
         {
-            var ca = _cr.GetCase(id);
-            return View(_cr.GetCase(id));
+            var cases = new Cases();
+            var cs = _cr.GetCase(id);
+            cases.Case = cs;
+            cases.personelModel = _pr.GetUserById(cs.UserId);
+            return View(cases);
         }
 
         ////////////////////////////// JSON Methods ////////////////////////////////

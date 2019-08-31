@@ -54,16 +54,16 @@
                                 <th>
                                     Sygnatura akt
                                 </th>
-                                <th>
+                                <th class="hidden-sm hidden-xs">
                                     Instancja
                                 </th>
-                                <th>
+                                <th class="hidden-sm hidden-xs">
                                     Dodano
                                 </th>
-                                <th>
+                                <th class="hidden-sm hidden-xs">
                                     Status
                                 </th>
-                                </tr>
+                            </tr>
                         </thead>
                         <tbody id="tbody">
                             @foreach (var z in Model.CasesList)
@@ -75,15 +75,15 @@
                                     <td class="clientField">
                                         @z.ActSignature
                                     </td>
-                                    <td class="clientField">
+                                    <td class="clientField hidden-sm hidden-xs">
                                         @z.Instance
                                     </td>
                                     @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") || User.IsInRole("Client")))
                                     {
-                                        <td>
+                                        <td class="hidden-sm hidden-xs">
                                             @z.AddDate
                                         </td>
-                                        <td>
+                                        <td class="hidden-sm hidden-xs">
                                             @if (z.Status)
                                             {
                                                 <span>ZAMKNIĘTA</span>
@@ -95,10 +95,10 @@
                                         </td>
                                         if (User.IsInRole("Admin"))
                                         {
-                                        <td>
+                                        <td class="hidden-sm hidden-xs">
                                             <a href="/Home/CaseEdit?id=@z.Id">EDYTUJ</a>
                                         </td>
-                                        <td style="color:#923233; cursor:pointer">
+                                        <td class="hidden-sm hidden-xs" style="color:#923233; cursor:pointer">
                                             <a id="@z.Id">USUŃ</a>
                                         </td>
                                         }

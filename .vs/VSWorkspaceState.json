@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Darek_kancelaria",
+    "\\Darek_kancelaria\\Migrations"
   ],
-  "SelectedNode": "\\Darek_kancelaria.sln",
+  "SelectedNode": "\\Darek_kancelaria\\Migrations\\Configuration.cs",
   "PreviewInSolutionExplorer": false
 }
