@@ -156,11 +156,12 @@ namespace Darek_kancelaria.Controllers
                     var contact = _db.Contacts.FirstOrDefault();
                     if (contact != null)
                     {
+                        contact.Name = model.Name;
+                        contact.FName = model.FName;
                         contact.Address = model.Address;
-                        contact.Code = model.Code;
+                        contact.Zip = model.Zip;
                         contact.Email = model.Email;
                         contact.Phone = model.Phone;
-                        contact.Postal = model.Postal;
 
                         _db.SaveChanges();
                     }

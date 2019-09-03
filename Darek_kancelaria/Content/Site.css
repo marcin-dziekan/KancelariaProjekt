@@ -13,7 +13,7 @@ html {
 
 .menu{
     padding-top:23px;
-    font-size:1.5em;
+    font-size:1.3em;
 }
     .menu:hover {
         background-color: #808080;
@@ -63,7 +63,7 @@ html {
 input,
 select
  {
-    width: 280px;
+    width: 100%;
 }
 
 .pageColor{
@@ -340,21 +340,40 @@ a{
 
 
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
     .ContentPadTop {
-        padding-top: 80px;
+        margin-top: 80px;
+    }
+}*/
+@media (min-width:300px) {
+    .ContentPadTop {
+        margin-top: 30px;
     }
 }
-
+@media (max-width: 767px) {
+    .ContentPadTop {
+        margin-top: 30px;
+    }
+}
 @media (min-width: 768px) {
     .ContentPadTop {
-        padding-top: 30px;
+        margin-top: 80px;
     }
 }
 
+@media (max-width: 991px) {
+    .ContentPadTop {
+        margin-top: 80px;
+    }
+}
+@media (min-width: 991px) {
+    .ContentPadTop {
+        margin-top: 120px;
+    }
+}
 @media(min-width: 1199px) {
     .ContentPadTop {
-        padding-top: 120px;
+        margin-top: 160px;
     }
 }
 
@@ -376,4 +395,18 @@ tr:hover {
 }
 .mainColor {
     color:#923233;
+}
+
+#dropArea {
+    text-align: center;
+    color: #fff;
+    border: 1px dashed;
+    border-color:#923233;
+}
+
+.active-drop {
+    background: #77bafa !important;
+    border: solid 2px blue !important;
+    opacity: .5;
+    color: black !important;
 }

@@ -1,64 +1,131 @@
 ﻿@model Darek_kancelaria.Models.Cases
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<div class="ContentPadTop">
+    <h4>Dane sprawy klienta @Model.personelModel.Name <span class="mainColor"> @Model.personelModel.FName</span></h4>
+    <hr />
+    <div class="row" style="margin-top: -25px;">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h1>@Model.Case.Type</h1>
+                </div>
+                <div class="col-md-6 hidden-sm hidden-xs">
 
-    <div class="ContentPadTop">
-        <h4>Dane sprawy klienta @Model.personelModel.Name <span class="mainColor"> @Model.personelModel.FName</span></h4>
-        <hr />
-        <div class="row" style="margin-top: -25px;">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1>@Model.Case.Type</h1>
-                        <h5>dodano: <span class="mainColor">@Model.Case.AddDate</span> </h5>
-                        @{
-                            if (!String.IsNullOrEmpty(Model.Case.ActSignature))
+
+                    @{
+                        if (!String.IsNullOrEmpty(Model.Case.ActSignature))
+                        {
+                            var parts = Model.Case.ActSignature.Split(' ', '.');
+                            if (parts.Count() == 3)
                             {
-                                var parts = Model.Case.ActSignature.Split(' ');
-                                if (parts.Count() == 3)
-                                {
-                                    <h4 class="hidden-sm hidden-xs">Wydział: <span class="mainColor">@parts[0]</span></h4>
-                                    <h4 class="hidden-sm hidden-xs">Rodzaj: <span class="mainColor">@parts[1]</span></h4>
-                                    var num = parts[2].Split('/');
-                                    <h4 class="hidden-sm hidden-xs">Numer: <span class="mainColor">@num[0]</span></h4>
-                                    <h4 class="hidden-sm hidden-xs">Założona w roku: <span class="mainColor">@DateTime.Now.Year.ToString().Substring(0, 2)@num[1]</span></h4>
-                                }
-                                if (parts.Count() == 4)
-                                {
-                                    <h4 class="hidden-sm hidden-xs">Wydział: <span class="mainColor">@parts[0]</span></h4>
-                                    <h4 class="hidden-sm hidden-xs">Sekcja: <span class="mainColor">@parts[1]</span></h4>
-                                    <h4 class="hidden-sm hidden-xs">Rodzaj: <span class="mainColor">@parts[2]</span></h4>
-                                    var num = parts[3].Split('/');
-                                    <h4 class="hidden-sm hidden-xs">Numer: <span class="mainColor">@num[0]</span></h4>
-                                    <h4 class="hidden-sm hidden-xs">Założona w roku: <span class="mainColor">@DateTime.Now.Year.ToString().Substring(0, 2)@num[1]</span></h4>
-                                }
+                                var num = parts[2].Split('/');
+                                <dl class="dl-horizontal">
+                                    <dt>
+                                        Dodano do systemu:
+                                    </dt>
+                                    <dd>
+                                        <span class="mainColor">@Model.Case.AddDate</span>
+                                    </dd>
+                                    <dt>
+                                        Wydział sądu:
+                                    </dt>
+                                    <dd><span class="mainColor">@parts[0]</span></dd>
+
+
+                                    <dt>
+                                        Rodzaj sprawy:
+                                    </dt>
+                                    <dd>
+                                        <span class="mainColor">@Model.Case.CaseType[parts[1]]</span>
+                                    </dd>
+                                    <dt>
+                                        Numer sprawy:
+                                    </dt>
+                                    <dd>
+                                        <span class="mainColor">@num[0]</span>
+                                    </dd>
+
+
+                                    <dt>
+                                        Założona w roku:
+                                    </dt>
+                                    <dd>
+                                        <span class="mainColor">@DateTime.Now.Year.ToString().Substring(0, 2)@num[1]</span>
+                                    </dd>
+                                </dl>
+                            }
+                            if (parts.Count() == 4)
+                            {
+                                var num = parts[3].Split('/');
+                                <dl class="dl-horizontal">
+                                    <dt>
+                                        Dodano do systemu:
+                                    </dt>
+                                    <dd>
+                                        <span class="mainColor">@Model.Case.AddDate</span>
+                                    </dd>
+                                    <dt>
+                                        Wydział sądu:
+                                    </dt>
+                                    <dd>
+                                        <span class="mainColor">@parts[0]</span>
+                                    </dd>
+                                    <dt>
+                                        Sekcja:
+                                    </dt>
+                                    <dd>
+                                        <span class="mainColor">@parts[1]</span>
+                                    </dd>
+                                    <dt>
+                                        Rodzaj sprawy:
+                                    </dt>
+                                    <dd>
+                                        <span class="mainColor">@Model.Case.CaseType[parts[2]]</span>
+                                    </dd>
+                                    <dt>
+                                        Numer sprawy:
+                                    </dt>
+                                    <dd>
+                                        <span class="mainColor">@num[0]</span>
+                                    </dd>
+                                    <dt>
+                                        Założona w roku:
+                                    </dt>
+                                    <dd>
+                                        <span class="mainColor">@DateTime.Now.Year.ToString().Substring(0, 2)@num[1]</span>
+                                    </dd>
+                                </dl>
                             }
                         }
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <h4>Sygnatura akt: <span style="color:#923233">@Model.Case.ActSignature</span></h4>
-                        <h4>Instancja: <span class="mainColor">@Model.Case.Instance</span></h4>
-                        <h4>Należność: <span class="mainColor">@Model.Case.Price.Sum(x => x.Cash) zł</span></h4>
-                        @if (Model.Case.Status)
-                        {
-                            <h4>Status: <span class="mainColor">ZAMKNIĘTA</span></h4>
-                        }
-                        else
-                        {
-                            <h4>Status: <span class="mainColor">W TOKU</span></h4>
-                        }
-                        @if (!Model.Case.Status)
-                        {
-                            <input id="closeCase" type="button" value="ZAMKNIJ SPRAWĘ" class="btnStyle" style="width:auto; line-height:20px;" />
-                        }
-                        else
-                        {
-                            <input id="openCase" type="button" value="OTWÓRZ SPRAWĘ" class="btnStyle" style="width:auto; line-height:20px;" />
-                        }
-                    </div>
+                    }
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 text-right">
+                    <h4>Sygnatura akt: <span style="color:#923233">@Model.Case.ActSignature</span></h4>
+                    <h4>Instancja: <span class="mainColor">@Model.Case.Instance</span></h4>
+                    <h4>Należność: <span class="mainColor">@Model.Case.Price.Sum(x => x.Cash) zł</span></h4>
+                    @if (Model.Case.Status)
+                    {
+                        <h4>Status: <span class="mainColor">ZAMKNIĘTA</span></h4>
+                    }
+                    else
+                    {
+                        <h4>Status: <span class="mainColor">W TOKU</span></h4>
+                    }
+                    @if (!Model.Case.Status)
+                    {
+                        <input id="closeCase" type="button" value="ZAMKNIJ SPRAWĘ" class="btnStyle" style="width:auto; line-height:20px;" />
+                    }
+                    else
+                    {
+                        <input id="openCase" type="button" value="OTWÓRZ SPRAWĘ" class="btnStyle" style="width:auto; line-height:20px;" />
+                    }
                 </div>
             </div>
         </div>
-        @if (Model.Case.Status)
-        {
+    </div>
+    @if (Model.Case.Status)
+    {
         <div class="row">
             <div class="col-md-12">
                 <h4 style="margin-top:20px;">Wynik postępowania </h4>
@@ -68,164 +135,228 @@
                 </div>
             </div>
         </div>
-        }
-        <div class="row">
-            <div class="col-md-8">
-                <h4 style="margin-top:20px;">Dokumenty <span>( liczba dokumentów:  <span class="mainColor">@Model.Case.DocumentsModels.Count()</span> )</span> </h4>
-                <hr />
-                <div class="row">
-                    @if (@Model.Case.DocumentsModels.Count() == 0)
-                    {
-                        <div class="col-md-12 text-center text-danger">
-                            <h4>Brak dokumentów</h4>
-                        </div>
-                    }
-                    else
-                    {
-                        <table>
-                            @foreach (var z in Model.Case.DocumentsModels)
-                            {
-                                <tr>
-                                    <td>
-                                        @z.Name
-                                    </td>
-                                    <td>
-                                        @z.Ext
-                                    </td>
-                                    <td>
-                                        @z.Added
-                                    </td>
-                                </tr>
-                            }
-                        </table>
-                    }
-                    <div class="row">
-                        <div class="col-md-6 text-right">
-                            @if (!Model.Case.Status)
-                            {
-                                <input type="button" value="PRZEŚLIJ DOKUMENT" class="btnStyle" style="width:auto; margin-top:20px;" />
-                            }
-                        </div>
-                        <div class="col-md-6 text-left">
-                            @if (!Model.Case.Status)
-                            {
-                                <input type="button" class="btnStyle" value="DODAJ DOKUMENT" style="width:auto; margin-top:20px;" />
-                            }
-                        </div>
+    }
+    <div class="row">
+        <div class="col-md-8">
+            <h4 style="margin-top:20px;">Dokumenty <span>( liczba dokumentów:  <span class="mainColor">@Model.Case.DocumentsModels.Count()</span> )</span> </h4>
+            <hr />
+            <div class="row">
+                @if (@Model.Case.DocumentsModels.Count() == 0)
+                {
+                    <div class="col-md-12 text-center text-danger">
+                        <h4>Brak dokumentów</h4>
+                    </div>
+                }
+                else
+                {
+                    <table>
+                        @foreach (var z in Model.Case.DocumentsModels)
+                        {
+                            <tr>
+                                <td>
+                                    @z.Name
+                                </td>
+                                <td>
+                                    @z.Ext
+                                </td>
+                                <td>
+                                    @z.Added
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                }
+
+                <div class="col-md-12">
+                    <div id="dropArea" class="col-md-12" style="height:150px;">
+                        <h4 class="mainColor" style="margin-top:60px; margin-bottom: 60px;">Upuść pliki tutaj max. 5 plików</h4>
                     </div>
                 </div>
-                <h4 style="margin-top:20px;">Dowody <span>( liczba dowodów:  <span class="mainColor">@Model.Case.EvidenceModels.Count()</span> )</span> </h4>
-                <hr />
-                <div class="row">
-                    @if (@Model.Case.EvidenceModels.Count() == 0)
-                    {
-                        <div class="col-md-12 text-center text-danger">
-                            <h4>Brak dowodów</h4>
-                        </div>
-                    }
-                    else
-                    {
 
+                <div class="col-md-12">
+                    <h4>Przesłane pliki: </h4>
+                    <ul class="list-group" id="uploadList"></ul>
+                </div>
+                <div class="col-md-12 text-center">
+                    @if (!Model.Case.Status)
+                    {
+                        <input type="button" value="PRZEŚLIJ DOKUMENT" data-toggle="modal" data-target="#addFileModal" class="btnStyle" style="width:auto; margin-top:20px;" />
                     }
+                </div>
+            </div>
+            <h4 style="margin-top:20px;">Dowody <span>( liczba dowodów:  <span class="mainColor">@Model.Case.EvidenceModels.Count()</span> )</span> </h4>
+            <hr />
+            <div class="row">
+                @if (@Model.Case.EvidenceModels.Count() == 0)
+                {
+                    <div class="col-md-12 text-center text-danger">
+                        <h4>Brak dowodów</h4>
+                    </div>
+                }
+                else
+                {
+
+                }
                 <div class="text-center">
                     @if (!Model.Case.Status)
                     {<input type="button" class="btnStyle" value="PRZEŚLIJ DOWÓD" style="width:auto; margin-top:20px;" />}
 
                 </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h4 style="margin-top:20px;">Terminy <span>( liczba wydarzeń  <span class="mainColor">@Model.Case.Terms.Count()</span> )</span> </h4>
+            <hr />
+            <div class="row">
+                @if (@Model.Case.Terms.Count() == 0)
+                {
+                    <div class="col-md-12 text-center text-danger">
+                        <h4>Brak wydarzeń</h4>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-md-12">
+                        <table style="width: 100%">
+                            <tbody>
+                                @foreach (var z in Model.Case.Terms)
+                                {
+                                    if (z.Term < DateTime.Now)
+                                    {
+                                        <tr class="clientRow">
+                                            <td class="clientField" style="color:#923233; text-decoration:line-through">
+                                                @z.Name
+                                            </td>
+                                            <td class="clientField text-right" style="color:#923233; text-decoration:line-through">
+                                                @z.Term.ToString("dd/MM/yyyy HH:mm")
+                                            </td>
+                                        </tr>
+                                    }
+                                    else
+                                    {
+                                        <tr class="clientRow">
+                                            <td class="clientField">
+                                                @z.Name
+                                            </td>
+                                            <td class="clientField text-right">
+                                                @z.Term.ToString("dd/MM/yyyy hh:mm")
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                <div class="text-center">
+                    @if (!Model.Case.Status)
+                    {
+                        <input type="button" class="btnStyle" value="DODAJ WYDARZENIE" data-toggle="modal" data-target="#addEventModal" style="width:auto; margin-top:20px;" />
+                    }
                 </div>
             </div>
-            <div class="col-md-4">
-                <h4 style="margin-top:20px;">Terminy <span>( liczba wydarzeń  <span class="mainColor">@Model.Case.Terms.Count()</span> )</span> </h4>
-                <hr />
-                <div class="row">
-                    @if (@Model.Case.Terms.Count() == 0)
-                    {
-                        <div class="col-md-12 text-center text-danger">
-                            <h4>Brak wydarzeń</h4>
-                        </div>
-                    }
-                    else
-                    {
-                        <div class="col-md-12">
-                            <table style="width: 100%">
-                                <tbody>
-                                    @foreach (var z in Model.Case.Terms)
-                                    {
-                                        if (z.Term < DateTime.Now)
-                                        {
-                                            <tr class="clientRow" >
-                                                <td class="clientField" style="color:#923233; text-decoration:line-through">
-                                                    @z.Name
-                                                </td>
-                                                <td class="clientField text-right" style="color:#923233; text-decoration:line-through">
-                                                    @z.Term.ToString("dd/MM/yyyy HH:mm")
-                                                </td>
-                                            </tr>
-                                        }
-                                        else
-                                        {
-                                            <tr class="clientRow">
-                                                <td class="clientField">
-                                                    @z.Name
-                                                </td>
-                                                <td class="clientField text-right">
-                                                    @z.Term.ToString("dd/MM/yyyy hh:mm")
-                                                </td>
-                                            </tr>
-                                        }
-                                    }
-                                </tbody>
-                            </table>
-                        </div>
-                    }
-                <div class="text-center">
-                    @if (!Model.Case.Status)
-                    {
-                        <input type="button" class="btnStyle" value="DODAJ WYDARZENIE" style="width:auto; margin-top:20px;" />
-                    }
-                </div>
-                </div>
-                <h4 style="margin-top:20px;">Finanse <span>( zapłacono:  <span class="mainColor">@Model.Case.Price.Sum(x => x.Cash) zł</span> )</span> </h4>
-                <hr />
-                <div class="row">
-                    @if (@Model.Case.Price.Count() == 0)
-                    {
-                        <div class="col-md-12 text-center text-danger">
-                            <h4>Brak odnotowanych płatności</h4>
-                        </div>
-                    }
-                    else
-                    {
-                <div class="col-md-12">
-                    <table style="width: 100%">
-                        <tbody>
-                            @foreach (var z in Model.Case.Price)
-                            {
+            <h4 style="margin-top:20px;">Finanse <span>( zapłacono:  <span class="mainColor">@Model.Case.Price.Sum(x => x.Cash) zł</span> )</span> </h4>
+            <hr />
+            <div class="row">
+                @if (@Model.Case.Price.Count() == 0)
+                {
+                    <div class="col-md-12 text-center text-danger">
+                        <h4>Brak odnotowanych płatności</h4>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-md-12">
+                        <table style="width: 100%">
+                            <tbody>
+                                @foreach (var z in Model.Case.Price)
+                                {
 
-                            <tr class="clientRow">
-                                <td class="clientField">
-                                    @z.ServiceName
-                                </td>
-                                <td class="clientField text-right">
-                                    @z.Cash zł
-                                </td>
-                                <td class="clientField text-right" style="color:#923233; width:auto;">
-                                    <a>DRUKUJ</a>
-                                </td>
-                            </tr>
-                            }
-                        </tbody>
-                    </table>
-                </div>
-                    }
+                                    <tr class="clientRow">
+                                        <td class="clientField">
+                                            @z.ServiceName
+                                        </td>
+                                        <td class="clientField text-right">
+                                            @z.Cash zł
+                                        </td>
+                                        <td class="clientField text-right" style="color:#923233; width:auto;">
+                                            <a>DRUKUJ</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
                 <div class="text-center">
                     @if (!Model.Case.Status)
                     {
-                        <input type="button" class="btnStyle" value="DODAJ PŁATNOŚĆ" style="width:auto; margin-top:20px;" />
+                        <input type="button" class="btnStyle" value="DODAJ PŁATNOŚĆ" data-toggle="modal" data-target="#addFinanceModal" style="width:auto; margin-top:20px;" />
                     }
-                </div>
                 </div>
             </div>
         </div>
     </div>
-    
+</div>
+@Html.Partial("_AddEvent")
+@Html.Partial("_AddFinance")
+@Html.Partial("_SendFile")
+@*<div style="margin-top:20vh" class="modal fade" id="addEventModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content" style="background-color:#373737">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">DODAJ WYDARZENIE</h5>
+                </div>
+                <form id="eventForm">
+                    <div class="modal-body">
+                        <div class="row">
+                            <input type="text" placeholder="Nazwa wydarzenia" class="col-md-12" style="line-height:40px; color:#000; " />
+                        </div>
+                        <div class="row">
+                            <input style="margin-top:20px; line-height: 40px; color:#000" type="datetime-local" placeholder="Data wydarzenia" class="col-md-12" />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row">
+                            <button type="submit" class="btn btnStyle col-md-12">DODAJ</button>
+                        </div>
+                        <div class="row">
+                            <button type="button" class="btn btnStyle col-md-12" style="background-color:#525252" data-dismiss="modal">ANULUJ</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>*@
+
+
+
+
+<script>
+
+        $(function () {
+            $('#dropArea').filedrop({
+                url: '@Url.Action("UploadFiles")',
+                allowedfiletypes: ['image/jpeg', 'image/png', 'image/gif'],
+                allowedfileextensions: ['.jpg', '.jpeg', '.png', '.gif'],
+                paramname: 'files',
+                maxfiles: 5,
+                maxfilesize: 5, // in MB
+                dragOver: function () {
+                    $('#dropArea').addClass('active-drop');
+                },
+                dragLeave: function () {
+                    $('#dropArea').removeClass('active-drop');
+                },
+                drop: function () {
+                    $('#dropArea').removeClass('active-drop');
+                },
+                afterAll: function (e) {
+                    $('#dropArea').html('file(s) uploaded successfully');
+                },
+                uploadFinished: function (i, file, response, time) {
+                    $('#uploadList').append('<li class="list-group-item">'+file.name+'</li>')
+                }
+            })
+        })
+</script>
