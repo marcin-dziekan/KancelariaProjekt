@@ -8,7 +8,12 @@ namespace Darek_kancelaria.Models
 {
     public class ContactModel : PersonModel
     {
-        [ScaffoldColumn(false)]
         new public int Id { get; set; }
+        [Display(Name="NIP")]
+        public string Nip { get; set; }
+        [Display(Name ="REGON")]
+        public string Regon { get; set; }
+        [Display(Name ="Nr konta")]
+        public string AccountNumber { get; set; }
     }
 }

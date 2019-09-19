@@ -7,6 +7,8 @@ using System.Web;
 using System.Web.Mvc;
 using System.Transactions;
 using Newtonsoft.Json;
+using System.Web.Script.Serialization;
+using System.IO;
 
 namespace Darek_kancelaria.Controllers
 {
@@ -62,6 +64,64 @@ namespace Darek_kancelaria.Controllers
                 }
             }
             else
+            {
+                return Json("ERROR", JsonRequestBehavior.AllowGet);
+            }
+        }
+
+        /// <summary>
+        /// Add files to database
+        /// </summary>
+        /// <returns></returns>
+        [Authorize(Roles = "Admin, Partner")]
+        public JsonResult UploadFile(string caseId)
+        {
+            try
+            {
+                if (Request.Files.Count > 0)
+                {
+                    HttpFileCollectionBase files = Request.Files;
+                    for (int i = 0; i < files.Count; i++)
+                    {
+                        HttpPostedFileBase file = files[i];
+
+                    }
+                    return Json("ADDED", JsonRequestBehavior.AllowGet);
+                }
+                else
+                {
+                    return Json("EMPTY", JsonRequestBehavior.AllowGet);
+                }
+
+            }
+            catch (Exception)
+            {
+                return Json("ERROR", JsonRequestBehavior.AllowGet);
+            }
+        }
+
+        [Authorize(Roles = "Admin, Partner")]
+        public JsonResult UploadEvidence(string caseId)
+        {
+            try
+            {
+                if (Request.Files.Count > 0)
+                {
+                    HttpFileCollectionBase files = Request.Files;
+                    for (int i = 0; i < files.Count; i++)
+                    {
+                        HttpPostedFileBase file = files[i];
+
+                    }
+                    return Json("ADDED", JsonRequestBehavior.AllowGet);
+                }
+                else
+                {
+                    return Json("EMPTY", JsonRequestBehavior.AllowGet);
+                }
+
+            }
+            catch (Exception)
             {
                 return Json("ERROR", JsonRequestBehavior.AllowGet);
             }

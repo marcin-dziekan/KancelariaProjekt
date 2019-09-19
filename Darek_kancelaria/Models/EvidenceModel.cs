@@ -13,7 +13,7 @@ namespace Darek_kancelaria.Models
         public string Name { get; set; }
         public byte[] Data { get; set; }
         public string Ext { get; set; }
-        public string Added { get; set; }
+        public string AddDate { get; set; }
         public virtual CaseModel CaseModel { get; set; }
     }
     public class EvidenceModel
@@ -22,7 +22,7 @@ namespace Darek_kancelaria.Models
         public string Name { get; set; }
         public byte[] Data { get; set; }
         public string Ext { get; set; }
-        public string Added { get; set; }
+        public string AddDate { get; set; }
         public virtual CaseModel CaseModel { get; set; }
     }
 }
