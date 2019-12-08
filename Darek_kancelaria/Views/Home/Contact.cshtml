@@ -5,40 +5,9 @@
 {
     @Html.AntiForgeryToken()
 
-    <div class="row mainColor form-horizontal ContentPadTop" style="font-family:'caviar'">
+    <div class="row form-horizontal ContentPadTop" style="font-family:'caviar'">
         <div class="col-md-8 col-md-offset-4">
             <h3 style="color:#923233">@ViewBag.Message</h3>
-        </div>
-        <div class="col-md-4" style="">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>ADRES</h2>
-                </div>
-                <div class="col-md-12">
-                    <address>
-                        <br />
-                        @if (@Model.Contact != null)
-                        {
-                            @Model.Contact.Address<br />
-                            <span>@Model.Contact.Address</span><span>&nbsp;</span><span> @Model.Contact.Zip</span><br />
-                            <abbr title="Telefon">Tel:</abbr>
-                            @Model.Contact.Phone<br />
-                            <abbr title="Adres email">Email:</abbr>
-                            @Model.Contact.Email
-                        }
-                    </address>
-                </div>
-            </div>
-            <div style="padding-top:37px;" class="row hidden-sm hidden-xs">
-                <div class="col-md-12">
-                    <h2>
-                        MAPA
-                    </h2>
-                </div>
-                <div class="col-md-12">
-                    <img width="90%" height="90%" style="max-height: 401px; max-width:360px" src="~/Images/modified_map.png" />
-                </div>
-            </div>
         </div>
         <div class="form-group col-md-8">
             <div class="row">
@@ -76,8 +45,39 @@
                         @Html.ValidationMessageFor(Model => Model.Question, "", new { @class = "text-danger" })
                     </div>
                     <div class="col-md-12" style="padding-top: 15px; padding-bottom:20px;">
-                        <input  type="submit" class="form-control btnStyle" value="WYŚLIJ" />
+                        <input type="submit" class="form-control btnStyle" value="WYŚLIJ" />
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>ADRES</h2>
+                </div>
+                <div class="col-md-12">
+                    <address>
+                        <br />
+                        @if (@Model.Contact != null)
+                        {
+                            @Model.Contact.Address<br />
+                            <span> @Model.Contact.Zip</span><br />
+                            <abbr title="Telefon">Tel:</abbr>
+                            @Model.Contact.Phone<br />
+                            <abbr title="Adres email">Email:</abbr>
+                            @Model.Contact.Email
+                        }
+                    </address>
+                </div>
+            </div>
+            <div style="padding-top:37px;" class="row hidden-sm hidden-xs">
+                <div class="col-md-12">
+                    <h2>
+                        MAPA
+                    </h2>
+                </div>
+                <div class="col-md-12">
+                    <img width="90%" height="90%" style="max-height: 401px; max-width:360px" src="~/Images/modified_map.png" />
                 </div>
             </div>
         </div>

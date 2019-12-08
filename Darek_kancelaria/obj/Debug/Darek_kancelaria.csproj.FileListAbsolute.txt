@@ -1333,7 +1333,6 @@ C:\Users\marci\Source\Repos\KancelariaProjekt\Darek_kancelaria\bin\pl\System.Web
 C:\Users\marci\Source\Repos\KancelariaProjekt\Darek_kancelaria\bin\pl\System.Web.WebPages.resources.dll
 C:\Users\marci\Source\Repos\KancelariaProjekt\Darek_kancelaria\bin\pl\System.Web.WebPages.Deployment.resources.dll
 C:\Users\marci\Source\Repos\KancelariaProjekt\Darek_kancelaria\bin\pl\System.Web.WebPages.Razor.resources.dll
-C:\Users\marci\Source\Repos\KancelariaProjekt\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CoreCompileInputs.cache
 C:\Users\marci\Source\Repos\KancelariaProjekt\Darek_kancelaria\obj\Debug\Darek_kancelaria.csproj.CopyComplete
 C:\Users\marci\Source\Repos\KancelariaProjekt\Darek_kancelaria\obj\Debug\Darek_kancelaria.dll
 C:\Users\marci\Source\Repos\KancelariaProjekt\Darek_kancelaria\obj\Debug\Darek_kancelaria.pdb

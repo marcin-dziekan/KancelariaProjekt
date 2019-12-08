@@ -162,6 +162,7 @@ namespace Darek_kancelaria.Controllers
                         contact.Zip = model.Zip;
                         contact.Email = model.Email;
                         contact.Phone = model.Phone;
+                        contact.AddDate = DateTime.Now;
 
                         _db.SaveChanges();
                     }
